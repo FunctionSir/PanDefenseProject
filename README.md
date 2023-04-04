@@ -4,7 +4,7 @@ Save the transgenders! 🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️
 今日事务较为繁忙, 仅暂时先把文件上传而已, 稍后将会逐步丰富.  
 图片/到Debian Pastezone的内容, 会有历史存档, ods/csv文件将是时刻最新的.
 ## 鸣谢
-特别在此感谢推特上@HANLIANYI520, @Ttisdjlas121, @ANQNKNy, @IrohaS511, @Just_A_Mumei, @ice06382670, @yoyo348874091, @kosakura_iori. 以及其他以各种方式(如喜欢/转推/书签/分享/Star/Fork/Watch)支持本项目的各位.
+特别在此感谢推特上@HANLIANYI520, @Ttisdjlas121, @ANQNKNy, @IrohaS511, @Just_A_Mumei, @ice06382670, @yoyo348874091, @kosakura_iori, @realtanitsuki. 以及其他以各种方式(如喜欢/转推/书签/分享/Star/Fork/Watch)支持本项目的各位.
 ## FAQ
 Q: Repo的所有者是Trans么?  
 A: 不是.  
