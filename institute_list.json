@@ -1,13 +1,5 @@
 [
   {
-    "names": ["名称"],
-    "sites": ["相关网页"],
-    "locations": ["地理位置(机构声称/其他来源)(仅已知)"],
-    "persecution": { "known": false, "evidences": ["相关证据"] },
-    "sources": ["来源"],
-    "checked": false
-  },
-  {
     "names": ["昭山素质教育"],
     "sites": ["https://www.lzszjyxx.com/"],
     "locations": ["湖南湘潭市岳塘区高峰村坳上组青少年素质教育学校"],
