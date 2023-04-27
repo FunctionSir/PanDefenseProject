@@ -4,12 +4,14 @@
   "title": "Institute List",
   "description": "A unknown list",
   "type": "object",
+  "additionalItems": false,
   "properties": {
     "content": {
       "type": "array",
       "uniqueItems": true,
       "items": {
         "type": "object",
+        "additionalProperties": false,
         "properties": {
           "names": {
             "description": "机构名称",
@@ -32,6 +34,7 @@
           "persecution": {
             "description": "迫害情况",
             "type": "object",
+            "additionalProperties": false,
             "properties": {
               "known": {
                 "description": "是否已知存在对跨性别者的迫害",
