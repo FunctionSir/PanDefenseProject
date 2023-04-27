@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "https://example.com/institute_list.schema.json",
+  "title": "Institute List",
+  "description": "A unknown list",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "names": {
+            "description": "机构名称",
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "sites": {
+            "description": "机构网站",
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "locations": {
+            "description": "机构地址",
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "persecution": {
+            "description": "迫害情况",
+            "type": "object",
+            "properties": {
+              "known": {
+                "description": "是否已知存在对跨性别者的迫害",
+                "type": "boolean"
+              },
+              "evidences": {
+                "description": "迫害的相关证据",
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "required": ["known", "evidences"]
+          },
+          "sources": {
+            "description": "来源",
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "checked": { "description": "已审核", "type": "boolean" }
+        },
+        "required": [
+          "names",
+          "sites",
+          "locations",
+          "persecution",
+          "sources",
+          "checked"
+        ]
+      }
+    }
+  },
+  "required": ["content"]
+}
