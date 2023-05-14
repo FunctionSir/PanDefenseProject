@@ -669,6 +669,22 @@
       "persecution": { "known": false, "evidences": [] },
       "sources": ["百度搜索"],
       "checked": false
+    },
+    {
+      "names": ["成才励志教育学校"],
+      "sites": [],
+      "locations": ["湖南省益阳市资阳区成才励志教育培训学校"],
+      "persecution": {
+        "known": true,
+        "evidences": [
+          "https://web.archive.org/web/20230507181159/https://twitter.com/ChrysalisQWQ/status/1655163765799931906"
+        ]
+      },
+      "sources": [
+        "https://web.archive.org/web/20230507181159/https://twitter.com/ChrysalisQWQ/status/1655163765799931906",
+        "https://www.zhihu.com/people/63-11-90-1"
+      ],
+      "checked": false
     }
   ]
 }
