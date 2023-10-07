@@ -665,7 +665,7 @@
     {
       "names": ["志和教育"],
       "sites": ["http://www.zhihejiaoyu.com"],
-      "locations": ["湖南"],
+      "locations": ["湖南省"],
       "persecution": { "known": false, "evidences": [] },
       "sources": ["百度搜索"],
       "checked": false
