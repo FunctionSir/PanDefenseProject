@@ -688,7 +688,7 @@
     },
     {
       "names": ["济南市纽扣青少年心理成长基地", "纽扣青少年教育学校", "济南市长清区纽扣教育培训学校有限公司"],
-      "sites": ["http://nukoschool.com/", "http://niukoujiaoyu.com/", "http://sdnuko.com/"],
+      "sites": ["https://www.nukoschool.com/", "http://www.niukoujiaoyu.com/", "http://www.sdnuko.com/"],
       "locations": ["济南市长清区纽扣教育培训学校有限公司", "济南市长清区张夏镇高庄村"],
       "persecution": { "known": false, "evidences": [] },
       "sources": ["网友私信"],
