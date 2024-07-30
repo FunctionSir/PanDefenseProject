@@ -693,6 +693,22 @@
       "persecution": { "known": false, "evidences": [] },
       "sources": ["网友私信"],
       "checked": false
+    },
+    {
+      "names": ["耀昂青少年素质教育"],
+      "sites": [],
+      "locations": ["(推测而得)重庆市"],
+      "persecution": { "known": false, "evidences": [] },
+      "sources": ["网友私信"],
+      "checked": false
+    },
+    {
+      "names": ["泉州市四维未成年人成长指导中心"],
+      "sites": [],
+      "locations": ["福建省泉州市晋江市英林镇嘉排村135号"],
+      "persecution": { "known": false, "evidences": [] },
+      "sources": ["网友私信"],
+      "checked": false
     }
   ]
 }
