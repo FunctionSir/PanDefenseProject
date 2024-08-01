@@ -1,12 +1,3 @@
-<!--
- * @Author: FunctionSir
- * @License: AGPLv3
- * @Date: 2024-07-30 22:04:54
- * @LastEditTime: 2024-07-30 22:42:47
- * @LastEditors: FunctionSir
- * @Description: README.md
- * @FilePath: /TransDefenseProject/README.md
--->
 # TransDefenseProject
 
 Save trans people! 🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️  
