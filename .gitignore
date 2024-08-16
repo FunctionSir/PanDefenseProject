@@ -12,6 +12,12 @@ tdp_tool/**/*.rs.bk
 # MSVC Windows builds of rustc generate these, which store debugging information
 tdp_tool/*.pdb
 
-# Ignore .vscode
+# Ignore dir .vscode
 .vscode/
 tdp_tool/.vscode/
+
+# Ignore dir build
+build/
+
+# Ignore generated compressed tarballs
+*.tar.zst
