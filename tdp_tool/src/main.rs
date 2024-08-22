@@ -2,7 +2,7 @@
  * @Author: FunctionSir
  * @License: AGPLv3
  * @Date: 2024-08-04 01:53:46
- * @LastEditTime: 2024-08-13 20:38:47
+ * @LastEditTime: 2024-08-22 22:18:10
  * @LastEditors: FunctionSir
  * @Description: Simple tool to help you.
  * @FilePath: /tdp_tool/src/main.rs
@@ -46,16 +46,17 @@ fn read_line() -> String {
 }
 
 fn view(conf: &Ini) {
-    println!("请输入ID.");
+    println!("请输入ID:");
     print_prompt();
     let id = read_line();
+    println!("{}", SEPARATOR_SINGLE);
     for (key, value) in conf.section(Some(id)).unwrap() {
         println!("{}: {}", key, value);
     }
     println!("{}", SEPARATOR_SINGLE);
 }
 
-fn insert(conf: &Ini, path: &str) {
+fn insert(conf: &mut Ini, path: &str) {
     let mut tot_bytes: usize = 0;
     let last_id: i64 = conf.sections().last().unwrap().unwrap().parse().unwrap();
     let mut file = OpenOptions::new()
@@ -76,30 +77,48 @@ fn insert(conf: &Ini, path: &str) {
     print_prompt();
     let names = read_line();
     println!("相关网站 (格式: XXX || YYY 其中\" || \"为分隔符. 注意: \"||\"两边的空格是必须的)");
-    println!("(若为未知, 填写unknown, 若有标注, 格式: (XXX)YYY):");
+    println!("(若为未知, 填写unknown, 若有标注, 格式: (XXX)YYY)");
+    println!("(若直接敲下ENTER, 那么, 取默认值unknown):");
     print_prompt();
-    let sites = read_line();
+    let mut sites = read_line();
+    if sites.len() == 0 {
+        sites = "unknown".to_string();
+    }
     println!("地理位置 (格式: XXX || YYY 其中\" || \"为分隔符. 注意: \"||\"两边的空格是必须的)");
-    println!("(若为未知, 填写unknown, 若有标注, 格式: (XXX)YYY):");
+    println!("(若为未知, 填写unknown, 若有标注, 格式: (XXX)YYY)");
+    println!("(若直接敲下ENTER, 那么, 取默认值unknown):");
     print_prompt();
-    let locations = read_line();
+    let mut locations = read_line();
+    if locations.len() == 0 {
+        locations = "unknown".to_string();
+    }
     println!("来源 (格式: XXX || YYY 其中\" || \"为分隔符. 注意: \"||\"两边的空格是必须的)");
     println!("(用->来连接查找路径, 用(->)来代表这是被启发而得到的路径的开头)");
     println!("(若有标注, 格式: (XXX)YYY):");
     print_prompt();
     let sources = read_line();
-    println!("可能存在迫害 (true = 是, false = 否, unknown = 未知):");
+    println!("可能存在迫害 (true = 是, false = 否, unknown = 未知)");
+    println!("(若直接敲下ENTER, 那么, 取默认值unknown):");
     print_prompt();
-    let persecution = read_line();
+    let mut persecution = read_line();
+    if persecution.len() == 0 {
+        persecution = "unknown".to_string();
+    }
     println!("若存在迫害, 那么相关证据 (none = 无, pending = 正在处理)");
     println!("(若非none或pending, 那么, 格式: XXX || YYY 其中\" || \"为分隔符. 注意: \"||\"两边的空格是必须的)");
     println!("(若直接敲下ENTER, 那么, 取默认值none):");
     print_prompt();
-    let evidences = read_line();
+    let mut evidences = read_line();
+    if evidences.len() == 0 {
+        evidences = "none".to_string();
+    }
     println!("条目是否已审核 (true = 是, false = 否)");
     println!("(若直接敲下ENTER, 那么, 取默认值false):");
     print_prompt();
-    let checked = read_line();
+    let mut checked = read_line();
+    if checked.len() == 0 {
+        checked = "false".to_string();
+    }
     let to_write = format!(
         "[{}]\nNames = {}\nSites = {}\nLocations = {}\nSources = {}\nPersecution = {}\nEvidences = {}\nChecked = {}",
         this_id,
@@ -115,12 +134,14 @@ fn insert(conf: &Ini, path: &str) {
     tot_bytes += to_write.as_bytes().len();
     println!("成功. 已追加{}字节.", tot_bytes);
     println!("{}", SEPARATOR_SINGLE);
-    println!("若您之后需要使用查找或导出等功能, 建议您重新加载文件.");
+    println!("注意: General部分的信息不会更改, 请手动改动之.");
     println!("{}", SEPARATOR_SINGLE);
+    reload(conf, path);
 }
 
 fn find(conf: &Ini) {
-    println!("请输入要查询的内容(仅支持在名称中搜索): ");
+    println!("请输入要查询的内容(仅支持在名称中搜索)");
+    println!("(若直接敲下ENTER, 那么, 将列出所有条目):");
     print_prompt();
     let what = read_line();
     println!("{}", SEPARATOR_SINGLE);
@@ -141,13 +162,17 @@ fn find(conf: &Ini) {
 }
 
 fn key_to_vec(conf: &Ini, section: Option<&str>, key: &str) -> Vec<String> {
-    conf.section(Some(section.unwrap()))
+    let s = conf
+        .section(Some(section.unwrap()))
         .unwrap()
         .get(key)
-        .unwrap()
-        .split(" || ")
-        .map(|x: &str| x.to_string())
-        .collect()
+        .unwrap();
+    let special = vec!["none", "unknown", "pending"];
+    if special.iter().any(|x| s == *x) {
+        vec![]
+    } else {
+        s.split(" || ").map(|x: &str| x.to_string()).collect()
+    }
 }
 
 fn key_to_bool(conf: &Ini, section: Option<&str>, key: &str) -> bool {
@@ -214,7 +239,7 @@ fn export_csv(conf: &Ini) {
             "Evidences",
             "Checked",
         ];
-        let special = vec!["true", "false", "unknown", "pending"];
+        let special = vec!["true", "false", "none", "unknown", "pending"];
         for key in to_get {
             let mut tmp = conf
                 .section(Some(section.unwrap()))
@@ -272,7 +297,7 @@ fn main() {
         println!("{}", SEPARATOR_SINGLE);
         match cmd.as_str() {
             "V" => view(&conf),
-            "I" => insert(&conf, &path),
+            "I" => insert(&mut conf, &path),
             "F" => find(&conf),
             "J" => export_json(&conf),
             "C" => export_csv(&conf),

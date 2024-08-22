@@ -3,16 +3,15 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-08-10 23:52:50
-LastEditTime: 2024-08-11 01:40:41
+LastEditTime: 2024-08-22 22:54:44
 LastEditors: FunctionSir
 Description: -
 FilePath: /tdp_tool/csv2ini.py
 '''
-from ctypes import sizeof
 import pandas
 
 path_csv = input("输入CSV的路径: ")
-path_ini = input("输入INI的路径: ")
+path_ini = input("输入INI的路径(注意: 若文件存在, 则会被覆盖!): ")
 ver = input("输入版本号: ")
 last_edit = input("输入最后编辑: ")
 
@@ -39,7 +38,7 @@ for s in special:
 
 to_write = to_write[:-2]
 
-with open(path_ini, 'a') as f:
+with open(path_ini, 'w') as f:
     f.write(to_write)
 
 print("成功.")
