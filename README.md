@@ -5,6 +5,12 @@ Save trans people! 🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️
 这个项目主要是收集的一些可能的"戒网瘾", "叛逆孩子""学校", 这类机构, 常常有如体罚虐待等情况. 这个项目的初衷是保护跨性别人群免受"扭转治疗"(虽然效果极为有限, 但是总之有一点点也比没有强), 当然, 其他人群也也许可以用来辅助自己不被抓进此类机构遭受虐待(虽然效果估计也不咋大就是了).  
 **特别提醒: 这项目里收集的东西目前全都没经过任何审核, 真假自辩. 若贵机构出现在上面, 也请莫要生气, 毕竟不是言之凿凿地说贵机构就一定有暴力行为. 贵机构若认为贵机构应被移出此列表, 还请发Issue说明. 所谓有话好商量, 莫要伤了和气. 若发现错误, 还请提出Issue, 若您进行了修改, 可以发起Pull Request. 非常感谢!**  
 
+## 本项目即将迎来改名
+
+鉴于本项目提供的信息不仅可以供各位跨性别人士查阅参考, 亦适合其他类型的性少数, 以及其他非性少数的有相关风险的人士查阅参考, 且经过一些商讨和思考, 有意将其变为一个整合了各种信息的资料库, 所以改名等工作便需要放在台面上了.  
+新的名字将会是"ZiMuProject", "子沐项目". 子沐是一位可敬的在豫章书院事件中做出贡献的志愿者, 然可惜的是, 她在看到这类机构彻底消失前便西去了. 经过讨论, 为了纪念她, 也为了继承她的志向, 故改名为此.  
+各种迁移工作将会尽快进行.  
+
 ## 全新的工具和进一步的打算
 
 全新的使用Rust程序设计语言编写Trans Defense Project Tool问世了. 目前的版本虽然很简陋但是多少算是能用.  
@@ -19,13 +25,13 @@ INI格式的文件语法简单, 对人类友好, 可读性高, 解析和写入�
 
 ## 在线查询
 
-多亏了「xioi」的工作([点此查看相应Pull Request](https://github.com/FunctionSir/TransDefenseProject/pull/5)), 现在有一个可用的查询用html被加入进来.  
+多亏了「与岭」(@yulingko_)的工作([点此查看相应Pull Request](https://github.com/FunctionSir/TransDefenseProject/pull/5)), 现在有一个可用的查询用html被加入进来.  
 当然, 亦有其他朋友精心制作的查询页面可用.  
 下面都是链接, 点击即可进入.  
-[xioi提供的查询页面(通过本项目的GitHub Pages上线)](https://functionsir.github.io/TransDefenseProject/search.html)  
+[与岭提供的查询页面(通过本项目的GitHub Pages上线)](https://functionsir.github.io/TransDefenseProject/search.html)  
 [LS-KR提供的页面](https://ovoneko.github.io/TDP-FT/)  
 [X(原推特)@YukariEwe提供的页面](https://unknown-list.0x7f.cc/)  
-[xioi提供的查询页面(通过xioi自己的GitHub Pages上线)](https://xioi.github.io/save_trans/search.html)  
+[与岭提供的查询页面(通过与岭自己的GitHub Pages上线)](https://与岭.github.io/save_trans/search.html)  
 在这里非常感谢各位的支持.  
 当然, 您自然也可以直接在GitHub上查看CSV文件.  
 
