@@ -3,13 +3,14 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-08-10 23:52:50
-LastEditTime: 2024-08-22 22:54:44
+LastEditTime: 2024-08-23 21:52:01
 LastEditors: FunctionSir
 Description: -
-FilePath: /tdp_tool/csv2ini.py
+FilePath: /ZiMuProject/zmp_tool/csv2ini.py
 '''
 import pandas
 
+print("子沐Project 工具 (CSV2INI) [Version: 0.0.1]")
 path_csv = input("输入CSV的路径: ")
 path_ini = input("输入INI的路径(注意: 若文件存在, 则会被覆盖!): ")
 ver = input("输入版本号: ")
@@ -23,9 +24,9 @@ for i, row in data.iterrows():
     to_write += "["+row["#"].strip()+"]\n"
     to_write += "Names = "+row["名称"].strip()+"\n"
     to_write += "Sites = "+row["相关网页"].strip()+"\n"
-    to_write += "Locations = " + row["地理位置(机构声称/其他来源)(仅已知)"].strip()+"\n"
+    to_write += "Locations = " + row["地理位置"].strip()+"\n"
     to_write += "Sources = " + row["来源"].strip()+"\n"
-    to_write += "Persecution = " + row["可能存在对跨性别者的迫害"].strip()+"\n"
+    to_write += "Persecution = " + row["存在虐待"].strip()+"\n"
     to_write += "Evidences = " + row["相关证据"].strip()+"\n"
     to_write += "Checked = " + row["已审核"].strip()+"\n"
     to_write += "\n"

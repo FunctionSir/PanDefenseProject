@@ -15,7 +15,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./tdp_tool
+        working-directory: ./zmp_tool
 
     strategy:
       matrix:
@@ -51,7 +51,7 @@ jobs:
       - name: Build archive
         shell: bash
         run: |
-          binary_name="tdp_tool"
+          binary_name="zmp_tool"
 
           dirname="$binary_name-${{ env.VERSION }}-${{ matrix.target }}"
           mkdir "$dirname"
@@ -72,5 +72,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            tdp_tool/${{ env.ASSET }}
+            zmp_tool/${{ env.ASSET }}
           

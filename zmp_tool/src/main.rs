@@ -2,10 +2,10 @@
  * @Author: FunctionSir
  * @License: AGPLv3
  * @Date: 2024-08-04 01:53:46
- * @LastEditTime: 2024-08-22 22:18:10
+ * @LastEditTime: 2024-08-23 21:55:42
  * @LastEditors: FunctionSir
  * @Description: Simple tool to help you.
- * @FilePath: /tdp_tool/src/main.rs
+ * @FilePath: /ZiMuProject/zmp_tool/src/main.rs
  */
 
 use ini::Ini;
@@ -222,7 +222,8 @@ fn export_json(conf: &Ini) {
 fn export_csv(conf: &Ini) {
     println!("请输入要保存到的文件的路径(注意: 会覆盖原有文件!):");
     print_prompt();
-    let mut to_write: String = String::from("#,名称,相关网页,地理位置(机构声称/其他来源)(仅已知),来源,可能存在对跨性别者的迫害,相关证据,已审核\n");
+    let mut to_write: String =
+        String::from("#,名称,相关网页,地理位置,来源,存在虐待,相关证据,已审核\n");
     let path = read_line();
     for section in conf.sections() {
         if section.is_none() || section.unwrap() == "General" {
@@ -270,6 +271,8 @@ fn reload(conf: &mut Ini, path: &str) {
 }
 
 fn main() {
+    println!("子沐Project 工具 [Version: 0.0.1]");
+    println!("{}", SEPARATOR_DOUBLE);
     let args: Vec<String> = std::env::args().collect();
     let path: String;
     if args.len() <= 1 {
