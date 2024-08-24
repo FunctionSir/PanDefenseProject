@@ -2,7 +2,7 @@
  * @Author: FunctionSir
  * @License: AGPLv3
  * @Date: 2024-08-04 01:53:46
- * @LastEditTime: 2024-08-23 21:55:42
+ * @LastEditTime: 2024-08-24 21:09:40
  * @LastEditors: FunctionSir
  * @Description: Simple tool to help you.
  * @FilePath: /ZiMuProject/zmp_tool/src/main.rs
@@ -132,6 +132,7 @@ fn insert(conf: &mut Ini, path: &str) {
     );
     file.write(to_write.as_bytes()).unwrap();
     tot_bytes += to_write.as_bytes().len();
+    println!("{}", SEPARATOR_SINGLE);
     println!("成功. 已追加{}字节.", tot_bytes);
     println!("{}", SEPARATOR_SINGLE);
     println!("注意: General部分的信息不会更改, 请手动改动之.");
@@ -145,12 +146,14 @@ fn find(conf: &Ini) {
     print_prompt();
     let what = read_line();
     println!("{}", SEPARATOR_SINGLE);
+    let mut tot: i64 = 0;
     for section in conf.sections() {
         match section {
             Some(sec) => {
                 if sec != "General" {
                     let names = conf.section(Some(sec)).unwrap().get("Names").unwrap();
                     if names.contains(&what) {
+                        tot = tot + 1;
                         println!("ID为{}的条目, 名称的值: {}.", sec, names);
                     }
                 }
@@ -158,6 +161,8 @@ fn find(conf: &Ini) {
             None => (),
         }
     }
+    println!("{}", SEPARATOR_SINGLE);
+    println!("成功. 共查找到{}条相关条目.", tot);
     println!("{}", SEPARATOR_SINGLE);
 }
 

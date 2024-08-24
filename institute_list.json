@@ -18,7 +18,7 @@
         ]
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -41,7 +41,7 @@
         ]
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -60,7 +60,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -79,7 +79,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -98,7 +98,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -117,7 +117,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -138,7 +138,7 @@
         ]
       },
       "sources": [
-        "ASaferChina（channel)@Telegram",
+        "ASaferChina (channel)@Telegram",
         "寒涟漪创建的扭转机构名单"
       ],
       "checked": false
@@ -158,7 +158,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -177,7 +177,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -196,7 +196,7 @@
         ]
       },
       "sources": [
-        "ASaferChina（channel)@Telegram"
+        "ASaferChina (channel)@Telegram"
       ],
       "checked": false
     },
@@ -1176,7 +1176,7 @@
         "evidences": []
       },
       "sources": [
-        "ASaferChina（channel)@Telegram",
+        "ASaferChina (channel)@Telegram",
         "知乎搜索->https://zhuanlan.zhihu.com/p/555295501->DuckDuckGo搜索"
       ],
       "checked": false
@@ -1253,7 +1253,6 @@
         ]
       },
       "sources": [
-        "https://www.zhihu.com/people/63-11-90-1",
         "https://www.zhihu.com/people/63-11-90-1"
       ],
       "checked": false
@@ -1418,6 +1417,182 @@
       ],
       "locations": [
         "湖南省石门县夹山镇三板桥全德特训基地"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "四川新巴蜀青少年特训学校",
+        "新巴蜀特训营"
+      ],
+      "sites": [
+        "(推测而得)(无法正常访问)http://www.xinbashu.cn/"
+      ],
+      "locations": [
+        "成都新都区军屯镇"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": [
+          "https://www.bilibili.com/video/BV1uZ421K7NJ/",
+          "https://news.cctv.com/2024/08/18/ARTIjq41Ia4U5awvNCpsW5GU240818.shtml",
+          "https://www.bilibili.com/video/BV1jE4m1d7ws/",
+          "https://www.bilibili.com/video/BV1n5WHejEr7/"
+        ]
+      },
+      "sources": [
+        "B站视频->Bing搜索"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "励萱教育叛逆戒网瘾学校",
+        "励萱教育"
+      ],
+      "sites": [
+        "https://www.peixun123.com/lxjypnjwyxx"
+      ],
+      "locations": [
+        "(不确定)(注册地址)河南省三门峡市城乡一体化示范区禹王路街道北朝村村委会院内05号"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "长沙旭阳教育"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省长沙县星沙街道开元中路88号星隆国际广场1栋1601"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆旭阳教育"
+      ],
+      "sites": [
+        "https://www.100jiaoyu.com/xyjy/"
+      ],
+      "locations": [
+        "重庆市铜梁区东城街道办事处安全村六组"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆护航学生素质训练基地"
+      ],
+      "sites": [
+        "https://www.guanwenw.com/cqhhjy"
+      ],
+      "locations": [
+        "重庆市渝北区玉峰山镇"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆志强素质教育"
+      ],
+      "sites": [],
+      "locations": [
+        "重庆市渝北区玉峰山镇"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "白领尔教育"
+      ],
+      "sites": [
+        "http://ble.cn7q.cn/"
+      ],
+      "locations": [
+        "重庆市"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆胤辰素质教育"
+      ],
+      "sites": [
+        "https://www.douyin.com/user/MS4wLjABAAAA-xUEj7CnMtyL3ub84bJMRUuSulQEPshr3Kdw9KEWLGA"
+      ],
+      "locations": [
+        "(实际位置很可能位于金佛山国家级风景名胜区内)重庆市南川区南城街道庆岩社区5组100号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": [
+          "https://www.douyin.com/video/7404091671505308966"
+        ]
+      },
+      "sources": [
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆子龙素质教育"
+      ],
+      "sites": [
+        "https://www.douyin.com/user/MS4wLjABAAAAeWZXi30I9iZl2zXlu6FZJu-CkwTfml4OrCpVElbVQUOPeWCKlsYJP8Yz0uirXAE1"
+      ],
+      "locations": [
+        "重庆市"
       ],
       "persecution": {
         "known": false,
