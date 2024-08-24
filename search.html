@@ -125,12 +125,33 @@
                     };
                 }
             }).mount('#app');
+	    
             const dataSource = "https://raw.githubusercontent.com/FunctionSir/ZiMuProject/master/institute_list.json";
+	        const dataSource2 = "https://paste.debian.net/plain/1327313";
+	    
             fetch(dataSource)
-            .then((rep) => rep.json())
+            .then((rep) => {
+                if(!rep.ok) {
+                    throw new Error("Use backup source");
+                }
+                return rep.json()
+            })
             .then((data_) => {
                 console.log(data_);
                 rawContent.value = data_.content;
+            })
+            .catch((error) => {
+                fetch(dataSource2)
+                .then((rep) => {
+                    if(!rep.ok) {
+                        throw new Error("No available source");
+                    }
+                    return rep.json()
+                })
+                .then((data_) => {
+                    console.log(data_);
+                    rawContent.value = data_.content;
+                });
             });
         </script>
     </body>
