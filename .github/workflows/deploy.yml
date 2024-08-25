@@ -53,13 +53,18 @@ jobs:
         run: |
           binary_name="zmp_tool"
 
-          dirname="$binary_name-${{ env.VERSION }}-${{ matrix.target }}"
+          dirname="zmp-with-tool-${{ env.VERSION }}-${{ matrix.target }}"
+          
           mkdir "$dirname"
+          
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
            mv "target/${{ matrix.target }}/release/$binary_name.exe" "$dirname"
           else
            mv "target/${{ matrix.target }}/release/$binary_name" "$dirname"
           fi
+          
+          cp ../{README.md,LICENSE,institute_list.conf,institute_list.csv,institute_list.json} "$dirname"
+          cp csv2ini.py "$dirname"
           
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
            7z a "$dirname.zip" "$dirname"
