@@ -63,7 +63,7 @@ jobs:
            mv "target/${{ matrix.target }}/release/$binary_name" "$dirname"
           fi
           
-          cp ../{README.md,LICENSE,institute_list.conf,institute_list.csv,institute_list.json} "$dirname"
+          cp ../{README.md,LICENSE,institute_list.conf,institute_list.csv,institute_list.json,related_articles.tsv} "$dirname"
           cp csv2ini.py "$dirname"
           
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
