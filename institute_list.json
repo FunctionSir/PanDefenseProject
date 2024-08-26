@@ -1937,6 +1937,88 @@
         "抖音搜索\"问题孩子学校\""
       ],
       "checked": false
+    },
+    {
+      "names": [
+        "揭阳东美实验专门教育矫正学校",
+        "东美实验叛逆矫正学校"
+      ],
+      "sites": [
+        "https://www.douyin.com/user/MS4wLjABAAAAWPiw_efSumglczPrB0XhYdOrqQ4o2r6MZbfMf7Ew0Jc"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": true,
+        "evidences": [
+          "https://www.bilibili.com/video/BV1kcsce4E5c/"
+        ]
+      },
+      "sources": [
+        "网友私信"
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "振中特训"
+      ],
+      "sites": [
+        "https://www.douyin.com/user/MS4wLjABAAAASyM85LPz9nFznHUZHAYH7YkVApwxSAb_946FZO_7LGn6-SrT75DCOVBNJ7X6_1nU"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "抖音搜索\"矫正学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "汉川市启泰特色教育学校",
+        "启泰教育",
+        "启泰特色教育学校"
+      ],
+      "sites": [
+        "http://www.city-edu.cn/"
+      ],
+      "locations": [
+        "湖北省汉川市庙头镇"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\"戒网瘾学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "博恩青少年教育基地",
+        "惠州博恩青少年教育成长基地",
+        "惠州伯乐青少年教育成长基地",
+        "博恩教育",
+        "惠州市博恩心理咨询服务有限公司"
+      ],
+      "sites": [
+        "https://www.gdboquan.com/",
+        "https://www.hzboen.com/"
+      ],
+      "locations": [
+        "广东省惠州市博罗县罗阳街道义和镇伯乐青少年教育成长基地"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\"戒网瘾学校\""
+      ],
+      "checked": false
     }
   ]
 }
