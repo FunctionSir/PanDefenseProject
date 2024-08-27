@@ -1,16 +1,17 @@
 #!/bin/python3
+
 '''
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-08-10 23:52:50
-LastEditTime: 2024-08-23 21:52:01
+LastEditTime: 2024-08-27 22:58:19
 LastEditors: FunctionSir
 Description: -
-FilePath: /ZiMuProject/zmp_tool/csv2ini.py
+FilePath: /PanDefenseProject/pdp_tool/csv2ini.py
 '''
 import pandas
 
-print("子沐Project 工具 (CSV2INI) [Version: 0.0.1]")
+print("PanDefenseProject 工具 (CSV2INI) [Version: 0.0.1]")
 path_csv = input("输入CSV的路径: ")
 path_ini = input("输入INI的路径(注意: 若文件存在, 则会被覆盖!): ")
 ver = input("输入版本号: ")

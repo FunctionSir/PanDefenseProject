@@ -5,7 +5,7 @@
  * @LastEditTime: 2024-08-24 21:09:40
  * @LastEditors: FunctionSir
  * @Description: Simple tool to help you.
- * @FilePath: /ZiMuProject/zmp_tool/src/main.rs
+ * @FilePath: /PanDefenseProject/pdp_tool/src/main.rs
  */
 
 use ini::Ini;
@@ -276,7 +276,7 @@ fn reload(conf: &mut Ini, path: &str) {
 }
 
 fn main() {
-    println!("子沐Project 工具 [Version: 0.0.1]");
+    println!("PanDefenseProject 工具 [Version: 0.0.1]");
     println!("{}", SEPARATOR_DOUBLE);
     let args: Vec<String> = std::env::args().collect();
     let path: String;

@@ -15,7 +15,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./zmp_tool
+        working-directory: ./pdp_tool
 
     strategy:
       matrix:
@@ -51,9 +51,9 @@ jobs:
       - name: Build archive
         shell: bash
         run: |
-          binary_name="zmp_tool"
+          binary_name="pdp_tool"
 
-          dirname="zmp-with-tool-${{ env.VERSION }}-${{ matrix.target }}"
+          dirname="pdp-with-tool-${{ env.VERSION }}-${{ matrix.target }}"
           
           mkdir "$dirname"
           
@@ -77,5 +77,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            zmp_tool/${{ env.ASSET }}
+            pdp_tool/${{ env.ASSET }}
           

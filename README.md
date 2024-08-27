@@ -2,12 +2,12 @@
  * @Author: FunctionSir
  * @License: AGPLv3
  * @Date: 2024-08-23 21:29:55
- * @LastEditTime: 2024-08-26 23:57:23
+ * @LastEditTime: 2024-08-27 22:54:35
  * @LastEditors: FunctionSir
  * @Description: -
- * @FilePath: /ZiMuProject/README.md
+ * @FilePath: /PanDefenseProject/README.md
 -->
-# ZiMuProject
+# PanDefenseProject
 
 救救孩子...... --鲁迅  
 当前版本: 1.5.1; 条目数: 104; 最后更新: 2024-08-26.  
@@ -41,14 +41,15 @@
 
 之前这个项目名为TransDefenseProject, 主要是为了帮助预防跨性别人士受到"扭转治疗"(已被广泛的实践证明无效), 后来突然意识到即使并不是跨性别人群也可能因此项目受益, 故决定改名.  
 其实不管是不是性少数, 这类机构的虐待等行为都是不人道的, 不可接受的.  
-现在的名字是"ZiMuProject", "子沐Project". 子沐是一位可敬的在豫章书院事件中做出贡献的志愿者, 然可惜的是, 她在看到这类机构彻底消失前便西去了. 经过讨论, 为了纪念她, 也为了继承她的志向, 故以此为名.  
+现在的名字是"PanDefenseProject", 「pan-是来自希腊语的前缀、意为泛、全的意思」, 与岭(一位主要的贡献者)这样解释.  
+至于之前的那个名字(非TransDefenseProject), 由于一些麻烦的争斗, 被弃去不用.  
 
 ## 在线查询
 
-多亏了「与岭」(@yulingko_)的工作([点此查看相应Pull Request](https://github.com/FunctionSir/ZiMuProject/pull/5)), 现在有一个可用的查询用html被加入进来.  
+多亏了「与岭」(@yulingko_)的工作([点此查看相应Pull Request](https://github.com/FunctionSir/PanDefenseProject/pull/5)), 现在有一个可用的查询用html被加入进来.  
 当然, 亦有其他朋友精心制作的查询页面可用.  
 下面都是链接, 点击即可进入.  
-[与岭提供的查询页面(通过本项目的GitHub Pages上线)](https://functionsir.github.io/ZiMuProject/search.html)  
+[与岭提供的查询页面(通过本项目的GitHub Pages上线)](https://functionsir.github.io/PanDefenseProject/search.html)  
 [LS-KR提供的页面](https://ovoneko.github.io/TDP-FT/)  
 [X(原推特)@YukariEwe提供的页面](https://unknown-list.0x7f.cc/)  
 [与岭提供的查询页面(通过与岭自己的GitHub Pages上线)](https://xioi.github.io/save_trans/search.html)  
