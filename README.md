@@ -1,7 +1,7 @@
 # PanDefenseProject
 
 救救孩子...... --鲁迅  
-当前版本: 1.5.5; 条目数: 120, 60 (机构列表, 相关文章); 最后更新: 2024-09-01.
+当前版本: 1.6.0; 条目数: 165, 60 (机构列表, 相关文章); 最后更新: 2024-09-02.
 这个项目主要是收集整理的一些所谓的"戒网瘾", "叛逆孩子""学校"相关的信息, 我们将来也会不断扩充这个资料库. 各位可以查阅, 参考.  
 **特别提醒: 这项目里收集的东西目前全都没经过任何审核, 真假自辩. 若贵机构出现在上面, 也请莫要生气, 毕竟不是言之凿凿地说贵机构就一定有暴力行为. 贵机构若认为贵机构应被移出此列表, 还请发Issue说明. 所谓有话好商量, 莫要伤了和气. 若发现错误, 还请提出Issue, 若您进行了修改, 可以发起Pull Request. 非常感谢!**  
 
@@ -35,6 +35,31 @@
 现在的名字是"PanDefenseProject", 「pan-是来自希腊语的前缀、意为泛、全的意思」, 与岭(一位主要的贡献者)这样解释.  
 至于之前的那个名字(非TransDefenseProject), 由于一些麻烦的争斗, 被弃去不用.  
 
+## 贡献指南
+
+### 大量条目
+
+若您要贡献大量条目, 在未完全迁移到SQL前, 还请遵循以下格式(对于conf文件):  
+
+``` ini
+[123456]
+Names = aaa || bbb
+Sites = aaa || bbb
+Locations = aaa || bbb
+Sources = aaa || bbb->ccc
+Persecution = unknown
+Evidences = aaa || bbb
+Scale = unknown
+Checked = false
+```
+
+您也可以修改CSV文件.  
+还请不要修改其他文件. 谢谢.  
+
+### 零星少量条目
+
+对于零星少量条目, 直接通过Issue, 电邮, 或X(原推特)私信, 联系FunctionSir(邮箱: <functionsir@outlook.com> X(原推特): @FuncSir)即可.  
+
 ## 在线查询
 
 多亏了「与岭」(@yulingko_)的工作([点此查看相应Pull Request](https://github.com/FunctionSir/PanDefenseProject/pull/5)), 现在有一个可用的查询用html被加入进来.  
@@ -58,7 +83,7 @@
 ## 鸣谢
 
 特别在此感谢(排名不分先后):
-@HANLIANYI520, @Ttisdjlas121, @ANQNKNy, @IrohaS511, @Just_A_Mumei, @ice06382670, @yoyo348874091, @kosakura_iori, @realtanitsuki, @ResetPower20, @Delusions6515, @Michelle_Z2023, @HanazawaKane, @yulingko_.  
+@HANLIANYI520, @Ttisdjlas121, @ANQNKNy, @IrohaS511, @Just_A_Mumei, @ice06382670, @yoyo348874091, @kosakura_iori, @realtanitsuki, @ResetPower20, @Delusions6515, @Michelle_Z2023, @HanazawaKane, @yulingko_, @thevxst.  
 以及其他以各种方式(如喜欢/转推/书签/分享/Star/Fork/Watch)支持本项目的各位.  
 
 ## 友链

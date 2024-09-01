@@ -20,6 +20,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -43,6 +44,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -62,6 +64,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -81,6 +84,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -91,15 +95,17 @@
         "https://www.xiangyuezhongxue.com/"
       ],
       "locations": [
-        "湖南省长沙市长沙县春华镇春华山村"
+        "湖南省长沙市长沙县春华镇春华山村88号"
       ],
       "persecution": {
         "known": false,
         "evidences": []
       },
       "sources": [
-        "ASaferChina (channel)@Telegram"
+        "ASaferChina (channel)@Telegram",
+        "CTSN"
       ],
+      "scale": "300",
       "checked": false
     },
     {
@@ -119,6 +125,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -141,6 +148,7 @@
         "ASaferChina (channel)@Telegram",
         "寒涟漪创建的扭转机构名单"
       ],
+      "scale": "200",
       "checked": false
     },
     {
@@ -151,15 +159,17 @@
         "http://www.999jwy.com/"
       ],
       "locations": [
-        "长沙市望城区"
+        "湖南省长沙市望城区高塘岭街道新阳村"
       ],
       "persecution": {
         "known": false,
         "evidences": []
       },
       "sources": [
-        "ASaferChina (channel)@Telegram"
+        "ASaferChina (channel)@Telegram",
+        "CTSN"
       ],
+      "scale": "200",
       "checked": false
     },
     {
@@ -179,6 +189,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -198,6 +209,7 @@
       "sources": [
         "ASaferChina (channel)@Telegram"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -217,6 +229,7 @@
       "sources": [
         "百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -236,6 +249,7 @@
       "sources": [
         "百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -253,6 +267,7 @@
       "sources": [
         "百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -262,14 +277,18 @@
       "sites": [
         "http://www.edandao.cn/"
       ],
-      "locations": [],
+      "locations": [
+        "湖北省随州市随县柳树塆6组10号思图教育大别山区社会实践基地"
+      ],
       "persecution": {
         "known": false,
         "evidences": []
       },
       "sources": [
-        "百度搜索"
+        "百度搜索",
+        "CTSN"
       ],
+      "scale": "300+",
       "checked": false
     },
     {
@@ -289,6 +308,7 @@
       "sources": [
         "百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -312,6 +332,7 @@
         "“相关证据”中所示报道",
         "寒涟漪创建的扭转机构名单"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -333,6 +354,7 @@
       "sources": [
         "“相关证据”中所示报道"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -354,6 +376,7 @@
       "sources": [
         "“相关证据”中所示报道"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -364,15 +387,17 @@
         "https://zebangedu.com/"
       ],
       "locations": [
-        "湖南省长沙市长沙县安沙镇花桥村"
+        "湖南省长沙市长沙县安沙镇鼎功桥村68号"
       ],
       "persecution": {
         "known": false,
         "evidences": []
       },
       "sources": [
-        "百度搜索"
+        "百度搜索",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -391,7 +416,7 @@
         "湖北校区: 湖北省武汉市蔡甸与汉川交汇处(离汉川高铁站5公里)",
         "湖南校区: 湖南省长沙市开福区沙坪湘绣城启德励志教育学校",
         "河南校区: 河南省郑州市巩义正苗启德教育学校",
-        "浙江校区: 浙江省丽水市缙云县启德特训学校"
+        "浙江校区: 浙江省丽水市缙云县启德特训学校 浙江省丽水市缙云县大桥北路293号"
       ],
       "persecution": {
         "known": false,
@@ -399,8 +424,10 @@
       },
       "sources": [
         "百度搜索",
-        "寒涟漪创建的扭转机构名单"
+        "寒涟漪创建的扭转机构名单",
+        "CTSN"
       ],
+      "scale": "1000+",
       "checked": false
     },
     {
@@ -418,6 +445,7 @@
       "sources": [
         "寒涟漪创建的扭转机构名单"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -440,6 +468,7 @@
         "百度搜索",
         "寒涟漪创建的扭转机构名单"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -463,6 +492,7 @@
       "sources": [
         "百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -486,6 +516,7 @@
       "sources": [
         "“相关证据”中所示知乎回答"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -510,6 +541,7 @@
       "sources": [
         "“相关证据”中所示知乎回答"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -529,6 +561,7 @@
       "sources": [
         "B站视频(BV1js4y1s7a1)的评论区"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -548,6 +581,7 @@
       "sources": [
         "B站视频(BV1J84y1p7mr)的评论区"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -561,7 +595,7 @@
         "https://www.jielongtx.com/"
       ],
       "locations": [
-        "长沙县江背镇乌川湖村"
+        "湖南省长沙县江背镇乌川湖村拱桥组115号"
       ],
       "persecution": {
         "known": false,
@@ -569,8 +603,10 @@
       },
       "sources": [
         "B站视频(BV1J84y1p7mr)的评论区",
-        "知乎搜索->https://zhuanlan.zhihu.com/p/550644396"
+        "知乎搜索->https://zhuanlan.zhihu.com/p/550644396",
+        "CTSN"
       ],
+      "scale": "400+",
       "checked": false
     },
     {
@@ -590,6 +626,7 @@
       "sources": [
         "B站视频(BV1J84y1p7mr)的评论区"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -609,6 +646,7 @@
       "sources": [
         "B站视频(BV1J84y1p7mr)的评论区"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -628,6 +666,7 @@
       "sources": [
         "B站视频(BV1J84y1p7mr)的评论区"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -647,6 +686,7 @@
       "sources": [
         "百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -657,15 +697,17 @@
         "https://www.jndhjyzx.com/"
       ],
       "locations": [
-        "地址: 山东省济南市"
+        "山东省济南市历城区东郭而庄村"
       ],
       "persecution": {
-        "known": false,
+        "known": true,
         "evidences": []
       },
       "sources": [
-        "百度搜索->https://zhuanlan.zhihu.com/p/567280444"
+        "百度搜索->https://zhuanlan.zhihu.com/p/567280444",
+        "CTSN"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -685,6 +727,7 @@
       "sources": [
         "B站视频(BV1Aj411u7Dd)的评论区"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -705,6 +748,7 @@
         "网友私信",
         "寒涟漪创建的扭转机构名单"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -724,6 +768,7 @@
       "sources": [
         "网友私信"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -736,15 +781,17 @@
         "http://www.ylxszjy.com/"
       ],
       "locations": [
-        "地址: 黄冈市团风县淋山河镇泡树岗村"
+        "地址: 黄冈市团风县淋山河镇泡树岗村 城东公路与Y003交叉口北"
       ],
       "persecution": {
         "known": true,
         "evidences": []
       },
       "sources": [
-        "寒涟漪创建的扭转机构名单->DuckDuckGo搜索"
+        "寒涟漪创建的扭转机构名单->DuckDuckGo搜索",
+        "CTSN"
       ],
+      "scale": "150",
       "checked": false
     },
     {
@@ -766,6 +813,7 @@
       "sources": [
         "寒涟漪创建的扭转机构名单"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -774,15 +822,17 @@
       ],
       "sites": [],
       "locations": [
-        "岳阳市君山区广兴洲镇黄安村"
+        "湖南省岳阳市君山区广兴洲镇黄安村四组善一学校院"
       ],
       "persecution": {
         "known": true,
         "evidences": []
       },
       "sources": [
-        "寒涟漪创建的扭转机构名单"
+        "寒涟漪创建的扭转机构名单",
+        "CTSN"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -798,8 +848,10 @@
         "evidences": []
       },
       "sources": [
-        "寒涟漪创建的扭转机构名单"
+        "寒涟漪创建的扭转机构名单",
+        "CTSN"
       ],
+      "scale": "300",
       "checked": false
     },
     {
@@ -821,6 +873,7 @@
         "寒涟漪创建的扭转机构名单",
         "(→)百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -842,6 +895,7 @@
       "sources": [
         "网友私信"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -861,6 +915,7 @@
       "sources": [
         "https://twitter.com/IrohaS511/status/1641669213260759040"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -882,6 +937,7 @@
       "sources": [
         "https://twitter.com/Just_A_Mumei/status/1641026655366926338→百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -901,6 +957,7 @@
       "sources": [
         "https://tieba.baidu.com/p/8311776125→百度搜索→https://tieba.baidu.com/p/8154831979"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -922,8 +979,10 @@
         ]
       },
       "sources": [
-        "https://tieba.baidu.com/p/8102952358→百度搜索"
+        "https://tieba.baidu.com/p/8102952358→百度搜索",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -939,6 +998,7 @@
       "sources": [
         "知乎搜索->https://zhuanlan.zhihu.com/p/355502237"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -956,14 +1016,17 @@
       "sources": [
         "https://tieba.baidu.com/p/8102952358→知乎搜索→https://zhuanlan.zhihu.com/p/355502237→DuckDuckGo搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
       "names": [
-        "重庆沙坪坝区歌乐山新启点兵仪素质教育中心"
+        "重庆沙坪坝区歌乐山新启点兵仪素质教育中心(重庆新启点学生素质教育基地)"
       ],
       "sites": [],
-      "locations": [],
+      "locations": [
+        "重庆市沙坪坝区中梁镇新兴路8号(重庆立事信息工程学校B区北侧)"
+      ],
       "persecution": {
         "known": false,
         "evidences": [
@@ -971,8 +1034,10 @@
         ]
       },
       "sources": [
-        "https://tieba.baidu.com/p/7582101377"
+        "https://tieba.baidu.com/p/7582101377",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -990,6 +1055,7 @@
       "sources": [
         "https://tieba.baidu.com/p/8118308647→百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1010,6 +1076,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7426397676→百度搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1028,8 +1095,10 @@
         "evidences": []
       },
       "sources": [
-        "https://tieba.baidu.com/p/7216862421→百度搜索"
+        "https://tieba.baidu.com/p/7216862421→百度搜索",
+        "CTSN"
       ],
+      "scale": "200",
       "checked": false
     },
     {
@@ -1047,6 +1116,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7464866957"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1067,6 +1137,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7526480568→百度搜索→https://tieba.baidu.com/p/7526480568"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1084,6 +1155,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7526480568→百度搜索→https://tieba.baidu.com/p/7526480568"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1101,6 +1173,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7526480568→百度搜索→https://tieba.baidu.com/p/7526480568"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1123,6 +1196,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7131688961→百度搜索→DuckDuckGo搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1141,6 +1215,7 @@
       "sources": [
         "网友私信"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1160,6 +1235,7 @@
       "sources": [
         "https://tieba.baidu.com/p/7804910705"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1183,6 +1259,7 @@
         "ASaferChina (channel)@Telegram",
         "知乎搜索->https://zhuanlan.zhihu.com/p/555295501->DuckDuckGo搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1203,6 +1280,7 @@
       "sources": [
         "知乎搜索->https://zhuanlan.zhihu.com/p/555295501→DuckDuckGo搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1221,6 +1299,7 @@
       "sources": [
         "知乎搜索->https://www.zhihu.com/question/301837316/answer/1969644263"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1231,15 +1310,17 @@
         "http://www.zhihejiaoyu.com"
       ],
       "locations": [
-        "湖南省"
+        "湖南省长沙市长沙县C17A与Y316交叉口西北方向180米"
       ],
       "persecution": {
         "known": false,
         "evidences": []
       },
       "sources": [
-        "百度搜索"
+        "百度搜索",
+        "CTSN"
       ],
+      "scale": "500+",
       "checked": false
     },
     {
@@ -1259,6 +1340,7 @@
       "sources": [
         "https://www.zhihu.com/people/63-11-90-1"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1281,8 +1363,10 @@
         "evidences": []
       },
       "sources": [
-        "网友私信"
+        "网友私信",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -1300,6 +1384,7 @@
       "sources": [
         "网友私信"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1317,6 +1402,7 @@
       "sources": [
         "网友私信"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1334,8 +1420,10 @@
         "evidences": []
       },
       "sources": [
-        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -1355,6 +1443,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1376,6 +1465,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1393,6 +1483,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1408,8 +1499,10 @@
         "evidences": []
       },
       "sources": [
-        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
+        "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -1429,6 +1522,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1454,6 +1548,7 @@
       "sources": [
         "B站视频->Bing搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1474,6 +1569,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1491,6 +1587,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1510,6 +1607,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1529,6 +1627,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1546,6 +1645,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1565,6 +1665,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1586,6 +1687,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1605,6 +1707,7 @@
       "sources": [
         "Michelle Chan的「中国大陆“扭转机构”/“叛逆孩子特训学校”名单」"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1616,15 +1719,17 @@
         "https://www.douyin.com/user/MS4wLjABAAAApfjMXTsjtsywIAYBxmmgGHKPdjWJ338sEDbUCHa48rP1QEHK7Dc5OSiryXSDS6Hz"
       ],
       "locations": [
-        "湖南省凤凰县廖家桥镇凤凰文武学校"
+        "湖南省湘西土家族苗族自治州凤凰县廖家桥镇廖潭公路旁"
       ],
       "persecution": {
-        "known": false,
+        "known": true,
         "evidences": []
       },
       "sources": [
-        "抖音搜索\"叛逆孩子学校\""
+        "抖音搜索\"叛逆孩子学校\"",
+        "CTSN"
       ],
+      "scale": "500+",
       "checked": false
     },
     {
@@ -1645,6 +1750,7 @@
       "sources": [
         "抖音搜索\"叛逆孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1663,6 +1769,7 @@
       "sources": [
         "抖音搜索\"叛逆孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1675,14 +1782,18 @@
         "https://www.douyin.com/user/MS4wLjABAAAAcSSO_Nai8UmGtU1ySbvbJ6RnQKa5IO9fFONePpZ8-oU",
         "https://www.douyin.com/user/MS4wLjABAAAAlTugT6rECPZiqch_EFDnQCMK2uhXO5JkR_IOYTNr-n4"
       ],
-      "locations": [],
+      "locations": [
+        "湖南省衡阳市衡东县衡山大道与X007交叉路口往东南约130米"
+      ],
       "persecution": {
-        "known": false,
+        "known": true,
         "evidences": []
       },
       "sources": [
-        "抖音搜索\"叛逆孩子学校\"->抖音搜索\"衡东少林文武学校\""
+        "抖音搜索\"叛逆孩子学校\"->抖音搜索\"衡东少林文武学校\"",
+        "CTSN"
       ],
+      "scale": "200",
       "checked": false
     },
     {
@@ -1700,6 +1811,7 @@
       "sources": [
         "抖音搜索\"叛逆孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1725,6 +1837,7 @@
       "sources": [
         "抖音搜索\"戒网瘾学校\"->抖音搜索\"德立教育叛逆学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1742,6 +1855,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1761,6 +1875,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1779,6 +1894,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1797,6 +1913,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1815,6 +1932,7 @@
       "sources": [
         "抖音搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1832,6 +1950,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1849,6 +1968,7 @@
       "sources": [
         "快手搜索用户\"叛逆孩子\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1866,6 +1986,7 @@
       "sources": [
         "快手搜索用户\"叛逆孩子\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1883,6 +2004,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1900,6 +2022,7 @@
       "sources": [
         "抖音搜索\"青春期孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1921,6 +2044,7 @@
       "sources": [
         "抖音搜索\"问题孩子学校\"->抖音搜索\"商丘初心研学教育\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1940,6 +2064,7 @@
       "sources": [
         "抖音搜索\"问题孩子学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1950,7 +2075,9 @@
       "sites": [
         "https://www.douyin.com/user/MS4wLjABAAAAWPiw_efSumglczPrB0XhYdOrqQ4o2r6MZbfMf7Ew0Jc"
       ],
-      "locations": [],
+      "locations": [
+        "广东省揭阳市揭东区泰兴路福利楼东南侧约110米"
+      ],
       "persecution": {
         "known": true,
         "evidences": [
@@ -1958,8 +2085,10 @@
         ]
       },
       "sources": [
-        "网友私信"
+        "网友私信",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -1977,6 +2106,7 @@
       "sources": [
         "抖音搜索\"矫正学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -1998,6 +2128,7 @@
       "sources": [
         "Bing搜索\"戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2022,6 +2153,7 @@
       "sources": [
         "Bing搜索\"戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2038,12 +2170,14 @@
         "宁夏回族自治区-石嘴山市-大武口区-贺兰山北路532号 洗煤厂工业遗址公园对面"
       ],
       "persecution": {
-        "known": false,
+        "known": true,
         "evidences": []
       },
       "sources": [
-        "网友私信"
+        "网友私信",
+        "CTSN"
       ],
+      "scale": "100",
       "checked": false
     },
     {
@@ -2067,6 +2201,7 @@
       "sources": [
         "百度贴吧\"戒网瘾学校吧\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2091,6 +2226,7 @@
       "sources": [
         "百度贴吧\"戒网瘾学校吧\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2109,6 +2245,7 @@
       "sources": [
         "网上搜索"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2126,6 +2263,7 @@
       "sources": [
         "抖音搜索\"特训基地\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2149,6 +2287,7 @@
       "sources": [
         "X平台帖子"
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2167,6 +2306,7 @@
       "sources": [
         "抖音搜索用户\"素质教育\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2187,6 +2327,7 @@
       "sources": [
         "抖音搜索用户\"素质教育\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2208,6 +2349,7 @@
       "sources": [
         "抖音搜索用户\"戒网瘾\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2228,6 +2370,7 @@
       "sources": [
         "抖音搜索用户\"素质教育\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2247,6 +2390,7 @@
       "sources": [
         "Bing搜索\" 戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2267,12 +2411,12 @@
       "sources": [
         "Bing搜索\" 戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
       "names": [
-        "石家庄君泽体能拓展",
-        "石"
+        "石家庄君泽体能拓展"
       ],
       "sites": [
         "http://www.sjz020jy.com/"
@@ -2287,6 +2431,7 @@
       "sources": [
         "Bing搜索\" 戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2306,6 +2451,7 @@
       "sources": [
         "Bing搜索\" 戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2327,6 +2473,7 @@
       "sources": [
         "Bing搜索\" 戒网瘾学校\""
       ],
+      "scale": "unknown",
       "checked": false
     },
     {
@@ -2344,6 +2491,817 @@
       "sources": [
         "Bing搜索\"特训学校\""
       ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆尚爱拓展训练基地"
+      ],
+      "sites": [],
+      "locations": [
+        "重庆市巴南区南泉街道"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "50~100",
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆如仁教育"
+      ],
+      "sites": [],
+      "locations": [
+        "重庆市大足区棠香街道双丰村10组19号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "长沙县回龙文武学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省长沙市长沙县梁坪村"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "长沙启徳励志特训学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省长沙市开福区湘绣文化小镇(沙坪湘绣城旁)"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "运城市国防教育基地"
+      ],
+      "sites": [],
+      "locations": [
+        "山西省运城市南山柏口窑"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "永州市零陵区护航学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省永州市零陵区梳子铺乡排龙山村"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "宜春博智心理咨询疏导基地"
+      ],
+      "sites": [],
+      "locations": [
+        "江西省宜春市袁州区"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "沿河启航户外拓展有限公司"
+      ],
+      "sites": [],
+      "locations": [
+        "贵州省铜仁市沿河土家族自治县公安局中界派出所西侧约170米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "兴仁市仁德学校"
+      ],
+      "sites": [],
+      "locations": [
+        "贵州省兴仁市巴铃镇绿荫社区大坪组"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "湘龙教育集团(福建宁化校区)"
+      ],
+      "sites": [],
+      "locations": [
+        "福建省三明市宁化县淮土镇凤山村罗家边20号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "咸宁子龙文武学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖北省咸宁市咸安区文笔路青龙山关音巷42号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "西安护航教育咨询有限公司"
+      ],
+      "sites": [],
+      "locations": [
+        "陕西省西安市蓝田县峣山路"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "300",
+      "checked": false
+    },
+    {
+      "names": [
+        "天阔·向荣励志教育"
+      ],
+      "sites": [],
+      "locations": [
+        "广西壮族自治区南宁市青秀区G324"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "唐山森太学校"
+      ],
+      "sites": [],
+      "locations": [
+        "河北省唐山市路北区河东路31号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "300",
+      "checked": false
+    },
+    {
+      "names": [
+        "思图励志教育学校绍兴青优基地"
+      ],
+      "sites": [],
+      "locations": [
+        "浙江省绍兴市越城区皋埠街道集体村普乐迪技术学院思图励志(青优基地)"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "300",
+      "checked": false
+    },
+    {
+      "names": [
+        "陕西大正青少年素质培训基地"
+      ],
+      "sites": [],
+      "locations": [
+        "陕西省咸阳市西咸新区沣东新城创新二路36号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "山东起点军事教育"
+      ],
+      "sites": [],
+      "locations": [
+        "山东省菏泽市临城路"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "青少年素质教育基地(北辰学院)"
+      ],
+      "sites": [],
+      "locations": [
+        "海南省白沙黎族自治县万宁市山根镇"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "陇南市青少年军校"
+      ],
+      "sites": [],
+      "locations": [
+        "甘肃省陇南市武都区钟楼路长安园西侧约240米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "临湘市文武职业学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省岳阳市临湘市塘坡巷38"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "300",
+      "checked": false
+    },
+    {
+      "names": [
+        "辽宁正德青少年特训基地"
+      ],
+      "sites": [],
+      "locations": [
+        "辽宁省铁岭市开原市G505(彰桓线)"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "兰州德优教育"
+      ],
+      "sites": [],
+      "locations": [
+        "甘肃省兰州市青白石街道大浪沟154号上三百米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "50",
+      "checked": false
+    },
+    {
+      "names": [
+        "俭德教育"
+      ],
+      "sites": [],
+      "locations": [
+        "吉林省长春市二道区东河东路与英俊西街交叉路口往东北约100米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "嘉禾县文武专门学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省郴州市嘉禾县坦坪镇坦坪村"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "300",
+      "checked": false
+    },
+    {
+      "names": [
+        "惠州伯恩青少年教育成长基地"
+      ],
+      "sites": [],
+      "locations": [
+        "广东省惠州市惠城区大良村"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "黄冈素励教育学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖北省黄冈市黄州区外甥路"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "湖南南华学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省永州市宁远县216省道东100米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "300",
+      "checked": false
+    },
+    {
+      "names": [
+        "湖北善聆心理教育"
+      ],
+      "sites": [],
+      "locations": [
+        "湖北省随州市广水市杨寨镇丁湾村吴家咀"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100+",
+      "checked": false
+    },
+    {
+      "names": [
+        "衡水乾景健康特训基地"
+      ],
+      "sites": [],
+      "locations": [
+        "河北省衡水市冀州区G106(东湖大道)"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100-",
+      "checked": false
+    },
+    {
+      "names": [
+        "黑龙江猎人少年军校"
+      ],
+      "sites": [],
+      "locations": [
+        "黑龙江省哈尔滨市道里区利民头道街2号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "河北新航综合素质教育基地"
+      ],
+      "sites": [],
+      "locations": [
+        "河北省廊坊市固安县永定街西曹庄村"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "海南快乐成长学校"
+      ],
+      "sites": [],
+      "locations": [
+        "海南省海口市琼山区长泰路5号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "贵州志扬户外拓展基地"
+      ],
+      "sites": [],
+      "locations": [
+        "贵州省黔西南自治州兴义市万峰林街道"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "广西新定义教育"
+      ],
+      "sites": [],
+      "locations": [
+        "广西北流市印塘大道与岑玉线交叉口东南约120米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "广西南宁兴华教育咨询中心（兴华励志教育）"
+      ],
+      "sites": [],
+      "locations": [
+        "广西壮族自治区南宁市武鸣区百威英博大道与里建大道交叉路口往北约180米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "广西灵山华益学校"
+      ],
+      "sites": [],
+      "locations": [
+        "广西省钦州市灵山县S312广西农村信用社西南侧约220米"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "广东阳江兴华励志学校"
+      ],
+      "sites": [],
+      "locations": [
+        "广东省阳江市广南线X607"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "赣州市老兵营地训练中心"
+      ],
+      "sites": [],
+      "locations": [
+        "江西省赣州市章贡区五龙三路章贡中学对面"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "丰城市社区矫正基地(龙剑基地)"
+      ],
+      "sites": [],
+      "locations": [
+        "江西省丰城市尚庄街道丰高路8号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "单县明德教育培训学校"
+      ],
+      "sites": [],
+      "locations": [
+        "山东省菏泽市单县单州路"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "赤壁市三国青少年成长学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖北省咸宁市赤壁赤高黄龙陆逊营寨风景区"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100+",
+      "checked": false
+    },
+    {
+      "names": [
+        "郴州市德志未来学校"
+      ],
+      "sites": [],
+      "locations": [
+        "湖南省郴州市资兴市三都镇Y215"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "北京兴华励志教育咨询中心"
+      ],
+      "sites": [],
+      "locations": [
+        "北京市顺义区白庙村西胡同41号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "200",
+      "checked": false
+    },
+    {
+      "names": [
+        "北京荣格青少年成长基地"
+      ],
+      "sites": [],
+      "locations": [
+        "北京市大兴区黄村镇刘一村厂前路34号"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
+      "checked": false
+    },
+    {
+      "names": [
+        "安徽卓捷素质教育"
+      ],
+      "sites": [],
+      "locations": [
+        "安徽省蚌埠市怀远县禹风路"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": []
+      },
+      "sources": [
+        "CTSN"
+      ],
+      "scale": "100",
       "checked": false
     }
   ]

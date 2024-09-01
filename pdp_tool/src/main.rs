@@ -2,7 +2,7 @@
  * @Author: FunctionSir
  * @License: AGPLv3
  * @Date: 2024-08-04 01:53:46
- * @LastEditTime: 2024-08-24 21:09:40
+ * @LastEditTime: 2024-09-02 00:15:19
  * @LastEditors: FunctionSir
  * @Description: Simple tool to help you.
  * @FilePath: /PanDefenseProject/pdp_tool/src/main.rs
@@ -31,6 +31,7 @@ struct Entry {
     locations: Vec<String>,
     persecution: PersecutionInfo,
     sources: Vec<String>,
+    scale: String,
     checked: bool,
 }
 
@@ -112,6 +113,13 @@ fn insert(conf: &mut Ini, path: &str) {
     if evidences.len() == 0 {
         evidences = "none".to_string();
     }
+    println!("估计规模 (unknown = 未知)");
+    println!("(若非unknown, 那么: 区间: x~y; 多于x: x+; 少于x: x-)");
+    println!("(若直接敲下ENTER, 那么, 取默认值unknown):");
+    let mut scale = read_line();
+    if scale.len() == 0 {
+        scale = "unknown".to_string();
+    }
     println!("条目是否已审核 (true = 是, false = 否)");
     println!("(若直接敲下ENTER, 那么, 取默认值false):");
     print_prompt();
@@ -120,7 +128,7 @@ fn insert(conf: &mut Ini, path: &str) {
         checked = "false".to_string();
     }
     let to_write = format!(
-        "[{}]\nNames = {}\nSites = {}\nLocations = {}\nSources = {}\nPersecution = {}\nEvidences = {}\nChecked = {}",
+        "[{}]\nNames = {}\nSites = {}\nLocations = {}\nSources = {}\nPersecution = {}\nEvidences = {}\nScale = {}\nChecked = {}",
         this_id,
         names,
         sites,
@@ -128,6 +136,7 @@ fn insert(conf: &mut Ini, path: &str) {
         sources,
         persecution,
         evidences,
+        scale,
         checked,
     );
     file.write(to_write.as_bytes()).unwrap();
@@ -180,6 +189,14 @@ fn key_to_vec(conf: &Ini, section: Option<&str>, key: &str) -> Vec<String> {
     }
 }
 
+fn key_to_string(conf: &Ini, section: Option<&str>, key: &str) -> String {
+    conf.section(Some(section.unwrap()))
+        .unwrap()
+        .get(key)
+        .unwrap()
+        .to_string()
+}
+
 fn key_to_bool(conf: &Ini, section: Option<&str>, key: &str) -> bool {
     let tmp = conf
         .section(Some(section.unwrap()))
@@ -209,6 +226,7 @@ fn export_json(conf: &Ini) {
                 known: key_to_bool(conf, section, "Persecution"),
                 evidences: key_to_vec(conf, section, "Evidences"),
             },
+            scale: key_to_string(conf, section, "Scale"),
             sources: key_to_vec(conf, section, "Sources"),
             checked: key_to_bool(conf, section, "Checked"),
         };
@@ -228,7 +246,7 @@ fn export_csv(conf: &Ini) {
     println!("请输入要保存到的文件的路径(注意: 会覆盖原有文件!):");
     print_prompt();
     let mut to_write: String =
-        String::from("#,名称,相关网页,地理位置,来源,存在虐待,相关证据,已审核\n");
+        String::from("#,名称,相关网页,地理位置,来源,存在虐待,相关证据,估计规模,已审核\n");
     let path = read_line();
     for section in conf.sections() {
         if section.is_none() || section.unwrap() == "General" {
@@ -243,6 +261,7 @@ fn export_csv(conf: &Ini) {
             "Sources",
             "Persecution",
             "Evidences",
+            "Scale",
             "Checked",
         ];
         let special = vec!["true", "false", "none", "unknown", "pending"];

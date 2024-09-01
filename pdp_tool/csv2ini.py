@@ -4,7 +4,7 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-08-10 23:52:50
-LastEditTime: 2024-08-27 22:58:19
+LastEditTime: 2024-09-02 00:07:39
 LastEditors: FunctionSir
 Description: -
 FilePath: /PanDefenseProject/pdp_tool/csv2ini.py
@@ -29,6 +29,7 @@ for i, row in data.iterrows():
     to_write += "Sources = " + row["来源"].strip()+"\n"
     to_write += "Persecution = " + row["存在虐待"].strip()+"\n"
     to_write += "Evidences = " + row["相关证据"].strip()+"\n"
+    to_write += "Scale = " + row["估计规模"].strip()+"\n"
     to_write += "Checked = " + row["已审核"].strip()+"\n"
     to_write += "\n"
 
