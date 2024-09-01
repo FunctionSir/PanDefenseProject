@@ -449,10 +449,12 @@
       ],
       "sites": [
         "https://www.75tx.com/",
-        "https://www.kashangkaxia.com/"
+        "https://www.kashangkaxia.com/",
+        "https://www.jiangnanxueyuan.com/"
       ],
       "locations": [
-        "湖北省汉川市叛逆孩子学校"
+        "湖北省汉川市叛逆孩子学校",
+        "湖北省孝感市汉川市马口镇"
       ],
       "persecution": {
         "known": false,
@@ -465,13 +467,15 @@
     },
     {
       "names": [
-        "西安重生素质教育学校"
+        "西安重生素质教育学校",
+        "西安重生训练基地"
       ],
       "sites": [
         "https://sxhdcs.com/"
       ],
       "locations": [
-        "西安市长安区杜曲镇西杨万村生产一路10号-西安重生青少年综合素质拓展基地"
+        "西安市长安区杜曲镇西杨万村生产一路10号-西安重生青少年综合素质拓展基地",
+        "西安市长安区三府衙村西安重生综合训练基地"
       ],
       "persecution": {
         "known": false,
@@ -2223,6 +2227,122 @@
       },
       "sources": [
         "抖音搜索用户\"素质教育\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "安徽民德素质学校"
+      ],
+      "sites": [
+        "http://www.ahminde.cn/"
+      ],
+      "locations": [
+        "安徽省安庆市怀宁县金拱镇高湖村"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\" 戒网瘾学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "心阳教育",
+        "汕头市心阳教育学校"
+      ],
+      "sites": [
+        "http://www.gdttxs.com/"
+      ],
+      "locations": [
+        "汕头市潮阳区和平镇安轿村心阳教育基地（原安轿小学）"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\" 戒网瘾学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "石家庄君泽体能拓展",
+        "石"
+      ],
+      "sites": [
+        "http://www.sjz020jy.com/"
+      ],
+      "locations": [
+        "河北省石家庄市栾城区西营乡后牛村大道街东头（308国道东）"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\" 戒网瘾学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "长沙市雨花区快乐成长培训学校"
+      ],
+      "sites": [
+        "http://www.klczxx.cn/"
+      ],
+      "locations": [
+        "湖南省长沙市雨花区"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\" 戒网瘾学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "德智体能拓展",
+        "南通德智体能机构",
+        "南通德智体能拓展有限公司"
+      ],
+      "sites": [
+        "http://www.dztnedu.cn/"
+      ],
+      "locations": [
+        "江苏省如皋市城北街道双龙居德智体能拓展"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\" 戒网瘾学校\""
+      ],
+      "checked": false
+    },
+    {
+      "names": [
+        "孔德青少年特训学校"
+      ],
+      "sites": [
+        "(疑似)http://www.jikebon.com/school/80.html"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\"特训学校\""
       ],
       "checked": false
     }
