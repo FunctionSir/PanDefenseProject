@@ -2,7 +2,7 @@
  * @Author: FunctionSir
  * @License: AGPLv3
  * @Date: 2024-08-04 01:53:46
- * @LastEditTime: 2024-09-02 00:15:19
+ * @LastEditTime: 2024-09-02 23:16:50
  * @LastEditors: FunctionSir
  * @Description: Simple tool to help you.
  * @FilePath: /PanDefenseProject/pdp_tool/src/main.rs
@@ -209,10 +209,15 @@ fn key_to_bool(conf: &Ini, section: Option<&str>, key: &str) -> bool {
     }
 }
 
-fn export_json(conf: &Ini) {
-    println!("请输入要保存到的文件的路径(注意: 会覆盖原有文件!):");
-    print_prompt();
-    let path = read_line();
+fn export_json(conf: &Ini, save_to: &str) {
+    let path: String;
+    if save_to.len() == 0 {
+        println!("请输入要保存到的文件的路径(注意: 会覆盖原有文件!):");
+        print_prompt();
+        path = read_line();
+    } else {
+        path = save_to.to_string();
+    }
     let mut entries: Vec<Entry> = Vec::new();
     for section in conf.sections() {
         if section.is_none() || section.unwrap() == "General" {
@@ -239,7 +244,9 @@ fn export_json(conf: &Ini) {
     let to_write = to_string_pretty(&json).unwrap();
     fs::write(path, &to_write).unwrap();
     println!("成功. 已写入{}字节.", to_write.as_bytes().len());
-    println!("{}", SEPARATOR_SINGLE);
+    if save_to.len() == 0 {
+        println!("{}", SEPARATOR_SINGLE);
+    }
 }
 
 fn export_csv(conf: &Ini) {
@@ -315,6 +322,11 @@ fn main() {
     println!("版本: {}", general_info.get("Ver").unwrap());
     println!("最后修改: {}", general_info.get("LastEdit").unwrap());
     println!("{}", SEPARATOR_DOUBLE);
+    if args.len() == 3 {
+        println!("直接JSON输出模式...");
+        export_json(&conf, &args[2]);
+        exit(0);
+    }
     loop {
         let cmd: String;
         println!("[V]查看条目 [I]新条目 [F]查找 [J]生成JSON [C]生成CSV [R]重新加载 [E]退出");
@@ -326,7 +338,7 @@ fn main() {
             "V" => view(&conf),
             "I" => insert(&mut conf, &path),
             "F" => find(&conf),
-            "J" => export_json(&conf),
+            "J" => export_json(&conf, ""),
             "C" => export_csv(&conf),
             "R" => reload(&mut conf, &path),
             "E" => {

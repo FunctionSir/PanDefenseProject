@@ -4,18 +4,31 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-08-10 23:52:50
-LastEditTime: 2024-09-02 00:07:39
+LastEditTime: 2024-09-02 23:05:44
 LastEditors: FunctionSir
 Description: -
 FilePath: /PanDefenseProject/pdp_tool/csv2ini.py
 '''
+
+import sys
 import pandas
 
 print("PanDefenseProject 工具 (CSV2INI) [Version: 0.0.1]")
-path_csv = input("输入CSV的路径: ")
-path_ini = input("输入INI的路径(注意: 若文件存在, 则会被覆盖!): ")
-ver = input("输入版本号: ")
-last_edit = input("输入最后编辑: ")
+path_csv = ""
+path_ini = ""
+ver = ""
+last_edit = ""
+if len(sys.argv) > 1:
+    print("提供了命令行参数, 进入非交互模式.")
+    path_csv = sys.argv[1]
+    path_ini = sys.argv[2]
+    ver = sys.argv[3]
+    last_edit = sys.argv[4]
+else:
+    path_csv = input("输入CSV的路径: ")
+    path_ini = input("输入INI的路径(注意: 若文件存在, 则会被覆盖!): ")
+    ver = input("输入版本号: ")
+    last_edit = input("输入最后编辑: ")
 
 data = pandas.read_csv(path_csv, dtype=str)
 

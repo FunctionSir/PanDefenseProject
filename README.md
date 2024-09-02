@@ -39,22 +39,42 @@
 
 ### 大量条目
 
-若您要贡献大量条目, 在未完全迁移到SQL前, 还请遵循以下格式(对于conf文件):  
+若您要贡献大量条目, 建议使用SQL. 还请不要修改conf, csv, 或是json. 我们保留legacy files是为了保留必要的兼容性.  
+您可以通过修改unmerged.sql来贡献大量条目. 不熟悉SQL也没关系, unmerged.sql中, 包含一份为您写的模板和其他帮助(这里也有一份).  
+initialization.sql, 与其他YYYYMMDD.sql, 还请不要修改.  
+非常感谢您的贡献!  
 
-``` ini
-[123456]
-Names = aaa || bbb
-Sites = aaa || bbb
-Locations = aaa || bbb
-Sources = aaa || bbb->ccc
-Persecution = unknown
-Evidences = aaa || bbb
-Scale = unknown
-Checked = false
+#### SQL模板
+
+您可以直接复制使用.
+
+##### 针对"机构列表"
+
+``` sql
+INSERT INTO INSTITUTE_LIST VALUES ( -- 固定的, 无需更改.
+    (SELECT hex(randomblob(4))), -- 作用是生成一个随机8位16进制ID, 不用动这里.
+    '例子1 || 例子2', -- 名称, 若有多个, 那么用" || "分开.
+    'https://foo.com || (疑似)https://bar.com', -- 相关网站, 或社交媒体, 短视频平台页面, 若有多个网址, 那么用" || "分开, 若未知, 'UNKNOWN'.
+    '地点1 || (疑似)地点2', -- 位置, 若有多个, 那么用" || "分开, 若未知, 'UNKNOWN'. 一切标注, 直接位于前面, 放在半角(英文)括号里. 上同.
+    '网友私信 || 某某列表 || 抖音搜索"XXX"->\'例子\'', -- 来源, 若有多个, 那么用" || "分开, 用->来连接查找路径. 若有半角单引号, 写为[\'](不含中括号).
+    'TRUE', -- 是否有迫害行为, 为'TRUE'(有), 'FALSE'(无), 或'UNKNOWN'(未知).
+    'https://a.com/ || https://b.com/', -- 相关证据. 若没有, 那么'NONE', 若有多个网址, 那么用" || "分开.
+    '100+', -- 估计规模. 若是区间, 那么如'100~200', 其他如: '100+' (100以上), '100-' (不到100), '100' (约100), 若未知, 'UNKNOWN'.
+    'FALSE' -- 是否经过了审核. 这里应为固定的'FALSE'.
+); -- 不要忘记这里的右括号和分号哦~
 ```
 
-您也可以修改CSV文件.  
-还请不要修改其他文件. 谢谢.  
+##### 针对"相关文章"
+
+``` sql
+INSERT INTO RELATED_ARTICLES VALUES ( -- 固定的, 无需更改.
+    (SELECT hex(randomblob(4))), -- 作用是生成一个随机8位16进制ID, 不用动这里.
+    '例子1', -- 文章标题 (若有两行, 把换行符换成空格, 若有副标题, 写成'主标题 副标题'的形式).
+    'https://xyz.com/abc.html', -- 文章链接.
+    'https://foo.com/bar.html' -- 文章存档链接, 如"archive.org"或"archive.today"里的快照的链接. 若没有, 'NONE'. 一个即可, 选效果较好的较新的.
+); -- 不要忘记这里的右括号和分号哦~
+
+```
 
 ### 零星少量条目
 

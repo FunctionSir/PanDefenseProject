@@ -63,8 +63,8 @@ jobs:
            mv "target/${{ matrix.target }}/release/$binary_name" "$dirname"
           fi
           
-          cp ../{README.md,LICENSE,institute_list.conf,institute_list.csv,institute_list.json,related_articles.tsv} "$dirname"
-          cp csv2ini.py "$dirname"
+          cp ../{README.md,LICENSE,institute_list.conf,institute_list.csv,institute_list.json,related_articles.tsv,pdp.db} "$dirname"
+          cp {csv2ini.py,db2legacy.py} "$dirname"
           
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
            7z a "$dirname.zip" "$dirname"
