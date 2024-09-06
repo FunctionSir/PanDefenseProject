@@ -1,5 +1,5 @@
 [package]
-name = "pdp_tool"
+name = "pdp_tool_legacy"
 version = "0.1.0"
 edition = "2021"
 

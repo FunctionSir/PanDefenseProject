@@ -5,6 +5,7 @@
 
 针对"机构列表":
 
+-- 注意: 内容中若有英文单引号, 应替换为两个英文单引号, 如: AAA'BBB -> AAA''BBB.
 INSERT INTO INSTITUTE_LIST VALUES ( -- 固定的, 无需更改.
     (SELECT hex(randomblob(4))), -- 作用是生成一个随机8位16进制ID, 不用动这里.
     '例子1 || 例子2', -- 名称, 若有多个, 那么用" || "分开.
@@ -19,6 +20,7 @@ INSERT INTO INSTITUTE_LIST VALUES ( -- 固定的, 无需更改.
 
 针对"相关文章":
 
+-- 注意: 内容中若有英文单引号, 应替换为两个英文单引号, 如: AAA'BBB -> AAA''BBB.
 INSERT INTO RELATED_ARTICLES VALUES ( -- 固定的, 无需更改.
     (SELECT hex(randomblob(4))), -- 作用是生成一个随机8位16进制ID, 不用动这里.
     '例子1', -- 文章标题 (若有两行, 把换行符换成空格, 若有副标题, 写成'主标题 副标题'的形式).
@@ -32,3 +34,4 @@ INSERT INTO RELATED_ARTICLES VALUES ( -- 固定的, 无需更改.
 */
 
 -- APPEND YOUR SQL BELOW -- 在下方插入您的SQL --
+

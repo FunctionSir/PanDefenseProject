@@ -51,31 +51,31 @@ jobs:
       - name: Build archive
         shell: bash
         run: |
-          binary_name="pdp_tool"
+          binary_name="pdp_tool_legacy"
 
           dirname="pdp-with-tool-${{ env.VERSION }}-${{ matrix.target }}"
-          
+
           mkdir "$dirname"
-          
+          mkdir "$dirname/tools"
+
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
-           mv "target/${{ matrix.target }}/release/$binary_name.exe" "$dirname"
+            mv "target/${{ matrix.target }}/release/$binary_name.exe" "$dirname/tools"
           else
-           mv "target/${{ matrix.target }}/release/$binary_name" "$dirname"
+            mv "target/${{ matrix.target }}/release/$binary_name" "$dirname/tools"
           fi
-          
+
           cp ../{README.md,LICENSE,institute_list.conf,institute_list.csv,institute_list.json,related_articles.tsv,pdp.db} "$dirname"
-          cp {csv2ini.py,db2legacy.py} "$dirname"
-          
+          cp {csv2ini.py,db2legacy.py,pdp_tool.py} "$dirname/tools"
+
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
-           7z a "$dirname.zip" "$dirname"
-           echo "ASSET=$dirname.zip" >> $GITHUB_ENV
+            7z a "$dirname.zip" "$dirname"
+            echo "ASSET=$dirname.zip" >> $GITHUB_ENV
           else
-           tar -czf "$dirname.tar.gz" "$dirname"
-           echo "ASSET=$dirname.tar.gz" >> $GITHUB_ENV
+            tar -czf "$dirname.tar.gz" "$dirname"
+            echo "ASSET=$dirname.tar.gz" >> $GITHUB_ENV
           fi
       - name: Upload the archive
         uses: softprops/action-gh-release@v1
         with:
           files: |
             pdp_tool/${{ env.ASSET }}
-          

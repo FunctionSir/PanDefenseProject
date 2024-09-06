@@ -21,3 +21,9 @@ build/
 
 # Ignore generated compressed tarballs
 *.tar.zst
+
+# Ignore already-built legacy tool.
+pdp_tool/pdp_tool_legacy
+
+# Ignore sandbox DB.
+pdp-sandbox.db

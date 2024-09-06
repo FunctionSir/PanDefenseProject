@@ -4,7 +4,7 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-09-02 22:02:33
-LastEditTime: 2024-09-03 00:13:49
+LastEditTime: 2024-09-04 23:19:19
 LastEditors: FunctionSir
 Description: -
 FilePath: /PanDefenseProject/pdp_tool/db2legacy.py
@@ -17,7 +17,7 @@ import subprocess
 SQLITE_BIN = "/usr/bin/sqlite3"
 
 ### LEGACY PDP TOOL CONFIG ###
-LEGACY_PDP_TOOL = "/usr/bin/cargo run --release --quiet"
+LEGACY_PDP_TOOL = "./pdp_tool_legacy"
 LEGACY_CSV2INI = "/usr/bin/python3 csv2ini.py"
 
 ### VER CONFIG ###

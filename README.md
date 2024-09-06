@@ -37,11 +37,18 @@
 
 ## 贡献指南
 
+### 使用Tool
+
+本项目配有一个工具, pdp_tool.py.  
+不过, 在您使用前, 还请务必检查.py文件内容是否符合您的设备的具体情况.  
+另外, 您应使用"在询问您操作时输入E然后按下ENTER键"的方式正常退出, 以避免文件写入出现问题.  
+
 ### 大量条目
 
 若您要贡献大量条目, 建议使用SQL. 还请不要修改conf, csv, 或是json. 我们保留legacy files是为了保留必要的兼容性.  
-您可以通过修改unmerged.sql来贡献大量条目. 不熟悉SQL也没关系, unmerged.sql中, 包含一份为您写的模板和其他帮助(这里也有一份).  
-initialization.sql, 与其他YYYYMMDD.sql, 还请不要修改.  
+您可以通过在unmerged文件夹中创建SQL文件来贡献大量条目. 不熟悉SQL也没关系, unmerged/template.sql中, 包含一份为您写的模板(可以复制一份, 再在这份副本的末尾开始追加新内容, 这样边写边参照也方便些)和其他帮助(这里也有一份).  
+至于命名, 我们建议您只使用纯大小写英文, 下划线, 短横线(减号), 数字来构成如: FunctionSir-19700101.sql这样的文件名.
+initialization.sql, 与其他YYYYMMDD.sql, 还请不要修改. 也请不要修改unmerged/template.sql  
 非常感谢您的贡献!  
 
 #### SQL模板
@@ -51,6 +58,7 @@ initialization.sql, 与其他YYYYMMDD.sql, 还请不要修改.
 ##### 针对"机构列表"
 
 ``` sql
+-- 注意: 内容中若有英文单引号, 应替换为两个英文单引号, 如: AAA'BBB -> AAA''BBB.
 INSERT INTO INSTITUTE_LIST VALUES ( -- 固定的, 无需更改.
     (SELECT hex(randomblob(4))), -- 作用是生成一个随机8位16进制ID, 不用动这里.
     '例子1 || 例子2', -- 名称, 若有多个, 那么用" || "分开.
@@ -67,6 +75,7 @@ INSERT INTO INSTITUTE_LIST VALUES ( -- 固定的, 无需更改.
 ##### 针对"相关文章"
 
 ``` sql
+-- 注意: 内容中若有英文单引号, 应替换为两个英文单引号, 如: AAA'BBB -> AAA''BBB.
 INSERT INTO RELATED_ARTICLES VALUES ( -- 固定的, 无需更改.
     (SELECT hex(randomblob(4))), -- 作用是生成一个随机8位16进制ID, 不用动这里.
     '例子1', -- 文章标题 (若有两行, 把换行符换成空格, 若有副标题, 写成'主标题 副标题'的形式).
