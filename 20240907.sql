@@ -176,11 +176,13 @@ INSERT INTO INSTITUTE_LIST VALUES('8CBF1B0B','郴州市德志未来学校','UNKN
 INSERT INTO INSTITUTE_LIST VALUES('EC16C179','北京兴华励志教育咨询中心','UNKNOWN','北京市顺义区白庙村西胡同41号','CTSN','TRUE','NONE','200','FALSE');
 INSERT INTO INSTITUTE_LIST VALUES('C5B9BAA6','北京荣格青少年成长基地','UNKNOWN','北京市大兴区黄村镇刘一村厂前路34号','CTSN','TRUE','NONE','100','FALSE');
 INSERT INTO INSTITUTE_LIST VALUES('D0A3B055','安徽卓捷素质教育','UNKNOWN','安徽省蚌埠市怀远县禹风路','CTSN','TRUE','NONE','100','FALSE');
+INSERT INTO INSTITUTE_LIST VALUES('14BD5158','岳阳市春雷学校 || 湖南春雷青少年特训学校','http://www.chunleixx.com/','湖南省岳阳市汨罗市黄市乡107国道旁','网友电邮','UNKNOWN','NONE','UNKNOWN','FALSE');
+INSERT INTO INSTITUTE_LIST VALUES('DD07779C','湘韵艺术培训 || 湖南特训教育集团 || 湖南特训集团 || 特训集团','https://www.hntexun.com/','湖南省长沙市','Bing搜索"特训学校"','UNKNOWN','NONE','UNKNOWN','FALSE');
 CREATE TABLE RELATED_ARTICLES (
     "ID" TEXT PRIMARY KEY NOT NULL UNIQUE,
     "TITLE" TEXT NOT NULL UNIQUE,
     "ORIGINAL" TEXT NOT NULL UNIQUE,
-    "ARCHIVE" TEXT NOT NULL UNIQUE
+    "ARCHIVE" TEXT NOT NULL
 );
 INSERT INTO RELATED_ARTICLES VALUES('2080E731','起底弑母少女身后的网戒学校：暴力抓走、随时体罚和神秘专家','https://www.thepaper.cn/newsDetail_forward_1532141','https://web.archive.org/web/20240616162214/https://www.thepaper.cn/newsDetail_forward_1532141');
 INSERT INTO RELATED_ARTICLES VALUES('C37CDA38','网戒学校第一案宣判后，“杨永信”们并没有消失','https://new.qq.com/rain/a/20230612A09QOU00','https://archive.is/RaJ3D');
@@ -242,4 +244,14 @@ INSERT INTO RELATED_ARTICLES VALUES('01547919','15岁女生在“戒网瘾学校
 INSERT INTO RELATED_ARTICLES VALUES('F2B11631','19岁少女死于戒网瘾学校 涉事学校办学资质被取消','https://www.rmzxb.com.cn/sqmy/nywy/2014/06/17/340701_1.shtml','https://web.archive.org/web/20240901041115/https://www.rmzxb.com.cn/sqmy/nywy/2014/06/17/340701_1.shtml');
 INSERT INTO RELATED_ARTICLES VALUES('09CE6137','长安剑：从电击疗法到豫章书院，为什么戒网瘾逃不出暴力手段','https://www.thepaper.cn/newsDetail_forward_1846729','https://web.archive.org/web/20220430071639/https://www.thepaper.cn/newsDetail_forward_1846729');
 INSERT INTO RELATED_ARTICLES VALUES('078D478D','湖南14岁少年入戒网瘾学校三天后腿骨折 学校称其自己崴伤、附近监控未使用','https://www.thepaper.cn/newsDetail_forward_10468634','https://web.archive.org/web/20240901041707/https://www.thepaper.cn/newsDetail_forward_10468634');
+INSERT INTO RELATED_ARTICLES VALUES('7117117F','"特训"学校:逃脱教育责任者的狂欢','https://zhuanlan.zhihu.com/p/399916122','NONE');
+INSERT INTO RELATED_ARTICLES VALUES('E245DC9E','逃离特训学校后，少年们开始“复仇”','https://new.qq.com/rain/a/20240906A02RE800','https://archive.is/Pyvv4');
+INSERT INTO RELATED_ARTICLES VALUES('C3A4F42E','看丹观察丨“特训学校”逼学生吃泔水馒头 网友：别再送孩子去了……','https://news.cnr.cn/dj/20240819/t20240819_526860268.shtml','https://web.archive.org/web/20240902035734/https://news.cnr.cn/dj/20240819/t20240819_526860268.shtml');
+INSERT INTO RELATED_ARTICLES VALUES('9160DAAC','网瘾、厌学、抑郁……特训学校真能解决问题吗？','https://new.qq.com/rain/a/20201113A06BR800','https://archive.is/RtAgJ');
+INSERT INTO RELATED_ARTICLES VALUES('11FADEA8','问题特训机构乱象：“特训营”成“暴力营”，反而加深孩子叛逆抵触','https://new.qq.com/rain/a/20240904A08UJM00','https://archive.is/Aighs');
+INSERT INTO RELATED_ARTICLES VALUES('0A57DC27','【深度曝光】特训学校暴力阴霾：学员泣血控诉，社会震惊热议','https://www.sohu.com/a/801699937_122001006','https://archive.is/G1cGH');
+INSERT INTO RELATED_ARTICLES VALUES('08056881','14岁女孩在特训学校被体罚至送进医院，本质问题在哪 ｜教育一周洞见','https://new.qq.com/rain/a/20240907A03LDK00','https://web.archive.org/web/20240907152825/https://new.qq.com/rain/a/20240907A03LDK00');
+INSERT INTO RELATED_ARTICLES VALUES('944E970B','女孩疑训练营遭性侵后跳楼身亡，知情人称教官临时拼凑，缺少把关考核','https://new.qq.com/rain/a/20240814A0A0X700','https://web.archive.org/web/20240815045203/https://new.qq.com/rain/a/20240814A0A0X700');
+INSERT INTO RELATED_ARTICLES VALUES('D5EBDEB0','【关注“问题”少年教育·上篇】少年命殒特训学校 暴力教育何日休止(图)','https://www.163.com/news/article/AMBHMGDB00014AEE.html','https://web.archive.org/web/20240907153643/https://www.163.com/news/article/AMBHMGDB00014AEE.html');
+INSERT INTO RELATED_ARTICLES VALUES('9211ADDA','正观快评：特教学校虐待学员,封闭管理不是暴力遮羞布','https://news.cyol.com/gb/articles/2021-08/18/content_npGZ9Se3x.html','https://archive.is/azDsO');
 COMMIT;

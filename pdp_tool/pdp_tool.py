@@ -4,7 +4,7 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-09-03 22:35:55
-LastEditTime: 2024-09-06 23:29:34
+LastEditTime: 2024-09-07 23:53:39
 LastEditors: FunctionSir
 Description: -
 FilePath: /PanDefenseProject/pdp_tool/pdp_tool.py
@@ -20,7 +20,7 @@ PDP_TOOL_VER = "1.0.0"
 PDP_TOOL_LEGACY_VER = "0.0.1"
 
 ### CONTRIBUTOR SWITCH ###
-CONTRIBUTOR_MODE = True
+CONTRIBUTOR_MODE = False
 
 ### TOOLCHAIN CONF ###
 PYTHON = "/usr/bin/python3"
@@ -35,7 +35,7 @@ PDP_DB = "../pdp.db"
 
 ### TOOL CONF ###
 SEPARATOR = "\", \""
-SEPARATOR_LINE = 16*"========"
+SEPARATOR_LINE = 18*"========"
 PROMPT = ">>> "
 
 print("PanDefenseProject Tool [ Version: "+PDP_TOOL_VER+" ]")
@@ -82,28 +82,31 @@ if (contribute_file_name != ""):
 
 while True:
     print("-------- 输入一个操作以继续 --------")
-    print("[L]IST [F]IND [N]EW [M]ODIFY [G]EN [D]UMP [S]QLITE [A]NALYZE [V]ACUUM [E]XIT")
-    print("帮助(PanDefenseProject部分): L: 列出所有条目. F: 搜索条目. N: 新增条目. M: 修改现有条目. G: 生成旧式文件(CONF/JSON/CSV).")
-    print("帮助(SQLite部分): D: 生成一份SQL DUMP. S: 进入SQLite CLI. A: 使用SQLite Analyzer对DB进行分析. V: 对数据库进行VACUUM操作.")
+    print("[L]IST [F]IND [D]ISPLAY [N]EW [M]ODIFY [G]EN [D]UMP [S]QLITE [A]NALYZE [V]ACUUM [P]YTHON [E]XIT")
+    print("帮助(PanDefenseProject部分): L: 列出所有条目. F: 搜索条目. D: 查看条目. N: 新增条目. M: 修改现有条目. G: 生成旧式文件(CONF/JSON/CSV).")
+    print("帮助(SQLite部分): D: 生成一份SQL DUMP. S: 进入SQLite CLI. A: 使用SQLite Analyzer对DB进行分析. V: 进行数据库VACUUM. P: 进入Python CLI.")
     op = input(PROMPT).upper()
     if (op == 'L' or op == "LIST"):
         print("-------- 输入表代号以继续 --------")
         print("IL: 机构列表. RA: 相关文章. 默认为IL.")
-        table = input(PROMPT)
+        table = input(PROMPT).upper()
         print(SEPARATOR_LINE)
         if (table == "IL" or table == ""):
+            output = subprocess.check_output(
+                [SQLITE_BIN, PDP_DB, ".separator "+SEPARATOR, "SELECT ID,NAMES FROM INSTITUTE_LIST;"]).decode("utf-8")[:-1]
             print("ID      "+(len(SEPARATOR)-2)*" "+"名称")
-            print(subprocess.check_output([SQLITE_BIN, PDP_DB, ".separator "+SEPARATOR,
-                                           "SELECT ID,NAMES FROM INSTITUTE_LIST;"]).decode("utf-8")[:-1])
         elif (table == "RA"):
+            output = subprocess.check_output(
+                [SQLITE_BIN, PDP_DB, ".separator "+SEPARATOR, "SELECT ID,TITLE FROM RELATED_ARTICLES;"]).decode("utf-8")[:-1]
             print("ID      "+(len(SEPARATOR)-2)*" "+"标题")
-            print(subprocess.check_output([SQLITE_BIN, PDP_DB, ".separator "+SEPARATOR,
-                                           "SELECT ID,TITLE FROM RELATED_ARTICLES;"]).decode("utf-8")[:-1])
+        print(output)
+        print(SEPARATOR_LINE)
+        print("成功. 共有 "+str(output.count('\n')+1)+" 条记录.")
         print(SEPARATOR_LINE)
     elif (op == 'F' or op == "FIND"):
         print("-------- 输入表代号/表名以继续 --------")
         print("IL: 机构列表. RA: 相关文章. 默认为IL.")
-        table = input(PROMPT)
+        table = input(PROMPT).upper()
         if (table == "IL" or table == ""):
             table = "INSTITUTE_LIST"
         elif (table == "RA"):
@@ -144,10 +147,31 @@ while True:
             print(SEPARATOR_LINE)
             print("成功. 共找到 "+str(len(output.split('\n'))-1)+" 条记录.")
         print(SEPARATOR_LINE)
+    elif (op == 'D' or op == "DISPLAY"):
+        print("-------- 输入表代号以继续 --------")
+        print("IL: 机构列表. RA: 相关文章. 默认为IL.")
+        table = input(PROMPT).upper()
+        print("-------- 输入ID以继续 --------")
+        id = input(PROMPT).upper()
+        print(SEPARATOR_LINE)
+        if (table == "IL" or table == ""):
+            table = "INSTITUTE_LIST"
+        elif (table == "RA"):
+            table = "RELATED_ARTICLES"
+        output = ""
+        try:
+            output = subprocess.check_output(
+                [SQLITE_BIN, PDP_DB, ".headers on", ".separator \"\\n\"", "SELECT * FROM "+table+" WHERE ID='"+id+"';"]).decode("utf-8")[:-1].split('\n')
+        except Exception:
+            pass
+        else:
+            for i in range(0, int(len(output)/2)):
+                print(output[i]+" = "+output[i+int(len(output)/2)])
+        print(SEPARATOR_LINE)
     elif (op == 'N' or op == "NEW"):
         print("-------- 输入表代号以继续 --------")
         print("IL: 机构列表. RA: 相关文章. 默认为IL.")
-        table = input(PROMPT)
+        table = input(PROMPT).upper()
         print(SEPARATOR_LINE)
         if (table == "IL" or table == ""):
             print("请您跟随指引输入相应信息.")
@@ -206,7 +230,7 @@ while True:
                     print("成功.")
             else:
                 gened = "INSERT INTO INSTITUTE_LIST VALUES ((SELECT hex(randomblob(4))),'"+names +\
-                    "','"+sites+"','"+locations+"','"+sources+"','"+persecution + \
+                    "','"+sites+"','"+locations+"','"+sources+"','"+persecution +\
                     "','"+evidences+"','"+scale+"','"+checked+"');"
                 if (contribute_file != None):
                     contribute_file.write(gened+'\n')
@@ -244,7 +268,38 @@ while True:
                 print(gened)
         print(SEPARATOR_LINE)
     elif (op == 'M' or op == "MODIFY"):
-        print("开发中... 敬请期待.")
+        print("-------- 输入表代号以继续 --------")
+        print("IL: 机构列表. RA: 相关文章. 默认为IL.")
+        table = input(PROMPT).upper()
+        print("格式: ID[TAB]字段名[TAB]修改后的值.")
+        if (table == "IL" or table == ""):
+            print("表INSTITUTE_LIST有字段: ID, NAMES, SITES, LOCATIONS, SOURCES, PERSECUTION, EVIDENCES, SCALE, CHECKED.")
+            table = "INSTITUTE_LIST"
+        elif (table == "RA"):
+            print("表RELATED_ARTICLES有字段: ID, TITLE, ORIGINAL, ARCHIVE.")
+            table = "RELATED_ARTICLES"
+        id, col, val = input(PROMPT).split('\t')
+        val = val.replace("'", "''")
+        if (not CONTRIBUTOR_MODE):
+            to_exec = [SQLITE_BIN, PDP_DB, "UPDATE "+table +
+                       " SET "+col+"="+"'"+val+"' WHERE ID='"+id+"';"]
+            print("将执行: "+str(to_exec)+".")
+            try:
+                output = subprocess.check_output(
+                    to_exec).decode("utf-8")[:-1]
+            except Exception:
+                pass
+            else:
+                print("成功.")
+        else:
+            gened = "UPDATE "+table + " SET "+col+"="+"'"+val+"' WHERE ID='"+id+"';"
+            if (contribute_file != None):
+                contribute_file.write(gened+'\n')
+                print("为您生成如下SQL, 并(将)追加到\""+contribute_file_name+"\":")
+            else:
+                print("为您生成如下SQL:")
+                print(gened)
+        print(SEPARATOR_LINE)
     elif (op == 'G' or op == "GEN"):
         print("!!! 注意: 继续之前, 请务必检查\"db2legacy.py\"的配置部分是否如您所愿 !!!")
         print(SEPARATOR_LINE)
@@ -266,6 +321,8 @@ while True:
         print(SEPARATOR_LINE)
     elif (op == 'V' or op == "VACUUM"):
         subprocess.call([SQLITE_BIN, PDP_DB, "VACUUM;"])
+    elif (op == 'P' or op == "PYTHON"):
+        os.system(PYTHON)
     elif (op == 'E' or op == "EXIT"):
         exit(0)
     else:

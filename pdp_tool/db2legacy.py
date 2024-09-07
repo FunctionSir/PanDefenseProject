@@ -4,7 +4,7 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-09-02 22:02:33
-LastEditTime: 2024-09-04 23:19:19
+LastEditTime: 2024-09-07 23:52:08
 LastEditors: FunctionSir
 Description: -
 FilePath: /PanDefenseProject/pdp_tool/db2legacy.py
@@ -21,8 +21,8 @@ LEGACY_PDP_TOOL = "./pdp_tool_legacy"
 LEGACY_CSV2INI = "/usr/bin/python3 csv2ini.py"
 
 ### VER CONFIG ###
-VER = "1.6.1"
-LAST_EDIT = "2024-09-03"
+VER = "1.6.3"
+LAST_EDIT = "2024-09-07"
 
 ### FILES CONFIG ###
 PDP_DB = "../pdp.db"
