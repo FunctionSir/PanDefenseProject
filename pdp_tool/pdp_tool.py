@@ -4,7 +4,7 @@
 Author: FunctionSir
 License: AGPLv3
 Date: 2024-09-03 22:35:55
-LastEditTime: 2024-09-07 23:53:39
+LastEditTime: 2024-09-09 23:39:15
 LastEditors: FunctionSir
 Description: -
 FilePath: /PanDefenseProject/pdp_tool/pdp_tool.py
@@ -82,8 +82,8 @@ if (contribute_file_name != ""):
 
 while True:
     print("-------- 输入一个操作以继续 --------")
-    print("[L]IST [F]IND [D]ISPLAY [N]EW [M]ODIFY [G]EN [D]UMP [S]QLITE [A]NALYZE [V]ACUUM [P]YTHON [E]XIT")
-    print("帮助(PanDefenseProject部分): L: 列出所有条目. F: 搜索条目. D: 查看条目. N: 新增条目. M: 修改现有条目. G: 生成旧式文件(CONF/JSON/CSV).")
+    print("[L]IST [F]IND [I]NSPECT [N]EW [M]ODIFY [G]EN [D]UMP [S]QLITE [A]NALYZE [V]ACUUM [P]YTHON [E]XIT")
+    print("帮助(PanDefenseProject部分): L: 列出所有条目. F: 搜索条目. I: 查看条目. N: 新增条目. M: 修改现有条目. G: 生成旧式文件(CONF/JSON/CSV).")
     print("帮助(SQLite部分): D: 生成一份SQL DUMP. S: 进入SQLite CLI. A: 使用SQLite Analyzer对DB进行分析. V: 进行数据库VACUUM. P: 进入Python CLI.")
     op = input(PROMPT).upper()
     if (op == 'L' or op == "LIST"):
@@ -147,7 +147,7 @@ while True:
             print(SEPARATOR_LINE)
             print("成功. 共找到 "+str(len(output.split('\n'))-1)+" 条记录.")
         print(SEPARATOR_LINE)
-    elif (op == 'D' or op == "DISPLAY"):
+    elif (op == 'I' or op == "INSPECT"):
         print("-------- 输入表代号以继续 --------")
         print("IL: 机构列表. RA: 相关文章. 默认为IL.")
         table = input(PROMPT).upper()
@@ -161,12 +161,12 @@ while True:
         output = ""
         try:
             output = subprocess.check_output(
-                [SQLITE_BIN, PDP_DB, ".headers on", ".separator \"\\n\"", "SELECT * FROM "+table+" WHERE ID='"+id+"';"]).decode("utf-8")[:-1].split('\n')
+                [SQLITE_BIN, PDP_DB, ".headers on", ".separator \"\\n\"", "SELECT ROWID,* FROM "+table+" WHERE ID='"+id+"';"]).decode("utf-8")[:-1].split('\n')
         except Exception:
             pass
         else:
             for i in range(0, int(len(output)/2)):
-                print(output[i]+" = "+output[i+int(len(output)/2)])
+                print(output[i].upper()+" = "+output[i+int(len(output)/2)])
         print(SEPARATOR_LINE)
     elif (op == 'N' or op == "NEW"):
         print("-------- 输入表代号以继续 --------")
@@ -244,7 +244,7 @@ while True:
             title = input(PROMPT).replace("'", "''")
             print("请输入源网址(应以如http://或https://等开头, 即, 应保留协议):")
             original = input(PROMPT).replace("'", "''")
-            print("请输入存档的网址(应以如http://或https://等开头, 即, 应保留协议):")
+            print("请输入存档的网址(应以如http://或https://等开头, 即, 应保留协议), 若暂无, 输入NONE:")
             archive = input(PROMPT).replace("'", "''")
             if (not CONTRIBUTOR_MODE):
                 to_exec = [

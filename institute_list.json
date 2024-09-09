@@ -3347,6 +3347,67 @@
       ],
       "scale": "unknown",
       "checked": false
+    },
+    {
+      "names": [
+        "苏北特训",
+        "苏北军事化特训学校",
+        "宿迁市北星艺术培训有限公司"
+      ],
+      "sites": [
+        "https://www.douyin.com/user/MS4wLjABAAAAx7YorH5YyvPthTXsG8UR2LZvTY8uxLkTZnaI_MuAQR0"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "Bing搜索\"特训学校\"->抖音搜索\"苏北军事化特训学校\""
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "昆明市西山起点养成教育培训学校",
+        "昆明起点学校"
+      ],
+      "sites": [
+        "https://www.qidian121.com/"
+      ],
+      "locations": [
+        "云南省昆明市西山区海口镇200号（原工人大学）"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索\"叛逆孩子学校\""
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "广西正知青少年成长基地",
+        "桂林正知青少年成长教育基地",
+        "广西正知青少年成长基地"
+      ],
+      "sites": [
+        "http://www.glzzjy.com/"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索\"叛逆孩子学校\"->DDG搜索\"正知青少年成长基地\""
+      ],
+      "scale": "unknown",
+      "checked": false
     }
   ]
 }
