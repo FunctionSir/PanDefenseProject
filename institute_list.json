@@ -3408,6 +3408,149 @@
       ],
       "scale": "unknown",
       "checked": false
+    },
+    {
+      "names": [
+        "山东蔚禾青少年素质教育",
+        "济宁蔚禾青少年叛逆特训学校",
+        "山东蔚禾青少年健康培训基地",
+        "山东蔚禾叛逆特训学校"
+      ],
+      "sites": [],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "华力教育",
+        "华力青少年素质教育",
+        "东莞市华力教育咨询有限公司"
+      ],
+      "sites": [
+        "http://www.hualijy.com/"
+      ],
+      "locations": [
+        "广东省东莞市大岭山镇旧飞鹅路38号（红传馆）"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "郑州正启教育咨询有限公司"
+      ],
+      "sites": [
+        "(疑似)https://zhengzhou0233857.11467.com/"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "成才新教育",
+        "四川成才新教育",
+        "德成才新教育"
+      ],
+      "sites": [
+        "http://sxccjy.com/"
+      ],
+      "locations": [
+        "四川省内江市东兴区新江街道办事处"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "战龙青少年教育基地",
+        "龙耀腾飞青少年素质拓展中心"
+      ],
+      "sites": [
+        "(疑似)https://www.qianxuew.com/zlqsnjy"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "广东玉蓝教育",
+        "揭阳市玉蓝专门教育",
+        "玉蓝教育基地"
+      ],
+      "sites": [
+        "(疑似)https://www.sok100.com/ylgd",
+        "(疑似)https://www.qianxuew.com/yljyjd"
+      ],
+      "locations": [
+        "(疑似)广东省揭阳市"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "豫华教育基地",
+        "豫华素质教育基地",
+        "豫华教育"
+      ],
+      "sites": [
+        "https://www.xue99.com/yhjy"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
     }
   ]
 }
