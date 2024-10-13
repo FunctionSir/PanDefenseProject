@@ -3551,6 +3551,227 @@
       ],
       "scale": "unknown",
       "checked": false
+    },
+    {
+      "names": [
+        "怡爱教育",
+        "河南开封怡爱青少年素质教育特训学校",
+        "开封怡爱教育科技有限公司"
+      ],
+      "sites": [
+        "(疑似)https://www.gdzz114.com/school/dae.html"
+      ],
+      "locations": [
+        "河南省开封市杞县平城乡孙府寨六组"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "河北知恩青少年特训学校",
+        "河北知恩特训学校"
+      ],
+      "sites": [
+        "(疑似)https://www.xue99.com/zetx"
+      ],
+      "locations": [
+        "(疑似)河北省"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "河北众德励志素质教育"
+      ],
+      "sites": [
+        "(疑似)https://www.sok100.com/zdlz"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "湖南励志教育",
+        "湖南励志叛逆管教学校"
+      ],
+      "sites": [
+        "https://www.xue99.com/xxjy"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆叛逆孩子学校"
+      ],
+      "sites": [
+        "https://www.xue99.com/dddjy"
+      ],
+      "locations": [
+        "(疑似)重庆市北碚区"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "江西战马青少年素质训练营",
+        "江西赣州封闭式军事化叛逆管教学校"
+      ],
+      "sites": [
+        "https://www.xue99.com/zmpngjxx"
+      ],
+      "locations": [
+        "(疑似)江西赣州"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "湖北启航青少年素质教育学校",
+        "湖北启航青少年叛逆管教学校",
+        "湖北启航教育",
+        "启航教育"
+      ],
+      "sites": [
+        "https://www.xue99.com/hbqhjy"
+      ],
+      "locations": [
+        "湖北孝感"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "辽宁叛逆管教学校"
+      ],
+      "sites": [
+        "https://www.xue99.com/zdtxjd"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "昆明育未来素质拓展基地",
+        "昆明育未来素质教育"
+      ],
+      "sites": [
+        "https://www.xue99.com/ywlkm",
+        "https://www.hanxuew.com/school/home/201.html"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网->百度搜索"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "春华叛逆特训学校",
+        "晋城市春华青少年素质特训学校"
+      ],
+      "sites": [
+        "https://www.xue99.com/chpnxx"
+      ],
+      "locations": [
+        "(推测所得)山西省晋城市"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "(机构声称)51",
+      "checked": false
+    },
+    {
+      "names": [
+        "立仁素质教育"
+      ],
+      "sites": [
+        "https://www.xue99.com/lrszjy"
+      ],
+      "locations": [],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
     }
   ]
 }
