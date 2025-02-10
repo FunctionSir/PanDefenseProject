@@ -3452,10 +3452,13 @@
     },
     {
       "names": [
-        "郑州正启教育咨询有限公司"
+        "郑州正启教育咨询有限公司",
+        "河南启腾青少年教育基地",
+        "河南启腾特训学校"
       ],
       "sites": [
-        "(疑似)https://zhengzhou0233857.11467.com/"
+        "(疑似)https://zhengzhou0233857.11467.com/",
+        "(疑似)https://zhengzhou.11467.com/info/22370270.htm"
       ],
       "locations": [],
       "persecution": {
@@ -3769,6 +3772,47 @@
       },
       "sources": [
         "久久培训网"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆枳璞教育"
+      ],
+      "sites": [],
+      "locations": [
+        "重庆市"
+      ],
+      "persecution": {
+        "known": true,
+        "evidences": [
+          "https://x.com/Nuominiang75884/status/1887823892170920223"
+        ]
+      },
+      "sources": [
+        "X上的帖子"
+      ],
+      "scale": "unknown",
+      "checked": false
+    },
+    {
+      "names": [
+        "重庆清直素质教育",
+        "清直素质教育"
+      ],
+      "sites": [
+        "https://www.xue99.com/qzszjy"
+      ],
+      "locations": [
+        "重庆市"
+      ],
+      "persecution": {
+        "known": false,
+        "evidences": []
+      },
+      "sources": [
+        "百度搜索"
       ],
       "scale": "unknown",
       "checked": false
