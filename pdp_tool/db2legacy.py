@@ -21,8 +21,8 @@ LEGACY_PDP_TOOL = "./pdp_tool_legacy"
 LEGACY_CSV2INI = "/usr/bin/python3 csv2ini.py"
 
 ### VER CONFIG ###
-VER = "1.8.0"
-LAST_EDIT = "2024-10-13"
+VER = "1.8.1"
+LAST_EDIT = "2025-02-10"
 
 ### FILES CONFIG ###
 PDP_DB = "../pdp.db"
