@@ -2281,11 +2281,12 @@
         "山东潍坊青州市花卉苗木交易中心东500米路北"
       ],
       "persecution": {
-        "known": false,
+        "known": true,
         "evidences": []
       },
       "sources": [
-        "X平台帖子"
+        "X平台帖子",
+        "网友邮件"
       ],
       "scale": "unknown",
       "checked": false
