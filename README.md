@@ -126,7 +126,7 @@ INSERT INTO RELATED_ARTICLES VALUES ( -- 固定的, 无需更改.
 ## 鸣谢
 
 特别在此感谢(排名不分先后):
-@HANLIANYI520, @Ttisdjlas121, @ANQNKNy, @IrohaS511, @Just_A_Mumei, @ice06382670, @yoyo348874091, @kosakura_iori, @realtanitsuki, @ResetPower20, @Delusions6515, @Michelle_Z2023, @HanazawaKane, @yulingko_, @thevxst.  
+@HANLIANYI520, @Ttisdjlas121, @ANQNKNy, @IrohaS511, @Just_A_Mumei, @ice06382670, @yoyo348874091, @kosakura_iori, @realtanitsuki, @ResetPower20, @Delusions6515, @Michelle_Z2023, @HanazawaKane, @yulingko_, @thevxst, @nk1415926.  
 以及其他以各种方式(如喜欢/转推/书签/分享/Star/Fork/Watch)支持本项目的各位.  
 
 ## 友链
